@@ -1,0 +1,32 @@
+baseURL = "https://scic.org/"
+DefaultContentLanguage = "fr"
+languageCode = "fr-fr"
+title = "Scic"
+theme = "scic"
+description = "Un outil au service des associations et des collectivités pour le développement de l'emploi durable"
+
+[[menu.main]]
+  name = "Diagnostic"
+  weight = 1
+  identifier = "diagnostic"
+  url = "/diagnostic/"
+[[menu.main]]
+  name = "À propos"
+  weight = 1
+  identifier = "about"
+  url = "/a-propos/"
+[[menu.main]]
+  name = "Témoignages"
+  weight = 1
+  identifier = "temoignage"
+  url = "/temoignages/"
+[[menu.main]]
+  name = "Foire aux questions"
+  weight = 1
+  identifier = "faq"
+  url = "/faq/"
+
+
+[Params]
+  ghrepo = "https://github.com/jonathanulco/SCIC-web"
+  branch = "master"

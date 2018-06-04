@@ -1,0 +1,10 @@
+<nav itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation" class="navigation">
+  <ul class="flex-container">
+    {{ $currentNode := . }}
+    {{ range .Site.Menus.main }}
+      <li class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}">
+        <a  href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+    {{end}}
+  </ul>
+</nav>

@@ -1,0 +1,90 @@
+// COLOR
+$color-main: #272f80;
+$color-highlight: #f87339;
+$white: #decec5;
+$dark: #313131;
+$gray: #6a6a6a;
+$bghead: #d7d5d5;
+$bgmain: #aed2dd;
+$boxshadow: 0 4px 6px 0 hsla(0%,0%,0%,.2);
+
+// BREAKPOINT
+$tiny: 38.786em !default; // 543px
+$small: 54.786em !default; // 767px
+$medium: 70.786em !default; // 991px
+$large: 85.643em !default; // 1199px
+$extra-large: 102.786em !default; // 1439px
+
+// SAFE MOBILE
+body {
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif; /* font stack from Medium */
+}
+
+// GENERAL
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: $dark;
+    background: $bgmain;
+}
+footer {
+  background:$white;
+  color:$dark;
+  .footer-int {
+    max-width:$medium;
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+  }
+  a {
+    color:$gray;
+  }
+
+}
+header {
+  background:$color-main;
+  color:$bgmain;
+  .header-int {
+    max-width:$medium;
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+  }
+  ul {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-left:auto;
+  }
+  li {
+    list-style:none;
+  }
+  a {
+    position:relative;
+    display:block;
+    color:$white;
+  }
+  .baseline {
+    span {
+      display:block;
+    }
+  }
+}
+main {
+  .main-int {
+    max-width:$medium;
+    margin:0 auto;
+  }
+}
