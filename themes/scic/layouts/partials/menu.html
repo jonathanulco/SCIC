@@ -3,7 +3,7 @@
     {{ $currentNode := . }}
     {{ range .Site.Menus.main }}
       <li class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}">
-        <a  href="{{ .URL }}">{{ .Name }}</a>
+        <a  href="{{ .URL }}"><span>{{ .Name }}</span></a>
       </li>
     {{end}}
   </ul>

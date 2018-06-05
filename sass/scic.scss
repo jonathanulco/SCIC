@@ -1,12 +1,12 @@
 // COLOR
 $color-main: #272f80;
 $color-highlight: #f87339;
-$white: #decec5;
+$white: #fefefe;
 $dark: #313131;
 $gray: #6a6a6a;
 $bghead: #d7d5d5;
 $bgmain: #aed2dd;
-$boxshadow: 0 4px 6px 0 hsla(0%,0%,0%,.2);
+$boxshadow: 0 4px 6px 0 hsla(0%,0%,0%,0.2);
 
 // BREAKPOINT
 $tiny: 38.786em !default; // 543px
@@ -17,74 +17,168 @@ $extra-large: 102.786em !default; // 1439px
 
 // SAFE MOBILE
 body {
-    font-family: -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Open Sans',
-    'Helvetica Neue',
-    sans-serif; /* font stack from Medium */
+  font-family: -apple-system,
+  BlinkMacSystemFont,
+  'Segoe UI',
+  Roboto,
+  Oxygen,
+  Ubuntu,
+  Cantarell,
+  'Open Sans',
+  'Helvetica Neue',
+  sans-serif; /* font stack from Medium */
 }
 
 // GENERAL
 body {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    color: $dark;
-    background: $bgmain;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: $dark;
+  background: $bgmain;
 }
-footer {
-  background:$white;
-  color:$dark;
-  .footer-int {
-    max-width:$medium;
-    margin:0 auto;
-    display:flex;
-    flex-direction:row;
+.invisible {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+}
+.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $color-main;
+  border: 3px solid $color-main;
+  &.button--cta {
+    color: $white;
+    border: none;
+    background: $color-highlight;
   }
-  a {
-    color:$gray;
-  }
+}
 
-}
-header {
-  background:$color-main;
-  color:$bgmain;
-  .header-int {
-    max-width:$medium;
-    margin:0 auto;
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-  }
-  ul {
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    margin-left:auto;
-  }
-  li {
-    list-style:none;
+// footer
+footer {
+  color: $dark;
+  background: $white;
+  .footer-int {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: $medium;
   }
   a {
-    position:relative;
-    display:block;
-    color:$white;
+    color: $gray;
+  }
+}
+// Header
+.banner {
+  color: $bgmain;
+  background: $color-main;
+  .header-int {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: $medium;
+    min-height: 5rem;
+  }
+  .logo {
+    font-size: 2.5rem;
   }
   .baseline {
+    margin: 0 0.5rem 0 2rem;
+    line-height: 1.1;
     span {
-      display:block;
+      display: block;
+    }
+  }
+  nav {
+    margin-left: auto;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 1rem;
+    padding: 0;
+  }
+  li {
+    margin: 0 0.8rem;
+    list-style: none;
+  }
+  nav a {
+    position: relative;
+    display: block;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $white;
+    &:hover, &:focus {
+      text-decoration: none;
+      color: $white;
+    }
+    &:hover:before, &:focus:before, &.active:before {
+      position: absolute;
+      z-index: 1;
+      content: '';
+      top: 60%;
+      left: 50%;
+      width: 110%;
+      height: 5px;
+      transform: translateX(-50%);
+      background: $color-highlight;
+    }
+    span {
+      position: relative;
+      z-index: 2;
     }
   }
 }
+// Main
 main {
   .main-int {
-    max-width:$medium;
-    margin:0 auto;
+    margin: 0 auto;
+    max-width: $medium;
+  }
+}
+// Home
+.home {
+  main {
+    padding-bottom:20vh;
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 70vh;
+      text-align: center;
+      background: url();
+      h1 {
+        font-size: 4rem;
+        span {
+          display: block;
+        }
+        a {
+          color: $white;
+          background: $color-highlight;
+        }
+      }
+      & + p {
+        margin-bottom: 3rem;
+        font-size: 1.5rem;
+        text-align: center;
+        color: $color-main;
+        & + p {
+          margin-bottom: 3rem;
+          text-align: center;
+        }
+      }
+    }
   }
 }
