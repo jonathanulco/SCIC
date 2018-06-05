@@ -55,11 +55,12 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: $color-main;
-  border: 3px solid $color-main;
+  border: 5px solid $color-main;
   &.button--cta {
     color: $white;
     border: none;
     background: $color-highlight;
+    text-transform:none;
   }
 }
 
@@ -75,6 +76,9 @@ footer {
   }
   a {
     color: $gray;
+  }
+  li {
+    list-style:none;
   }
 }
 // Header
@@ -161,12 +165,10 @@ main {
       background: url();
       h1 {
         font-size: 4rem;
+        line-height:1.1;
+        color:$color-main;
         span {
           display: block;
-        }
-        a {
-          color: $white;
-          background: $color-highlight;
         }
       }
       & + p {
