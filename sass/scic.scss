@@ -192,12 +192,22 @@ main {
 }
 form {
   [class*="step"] {
-    & > fieldset {
-      span {
-        display:block;
-        background:$color-highlight;
-        text-transform:uppercase;
+    & > legend {
+      display:flex;
+      flex-direction:column;
+      span:first-of-type {
+      background:$color-highlight;
+      color:$white;
+      text-transform:uppercase;
       }
+      span:last-of-type {
+        display:inline-block;
+        background:$white;
+        color:$color-main;
+      }
+    }
+    & > fieldset legend {
+      border-left: 3px solid $color-main;
     }
   }
 }
