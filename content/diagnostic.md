@@ -1,5 +1,5 @@
 +++
 title ="Diagnostic"
-description ="Répondez à ce formulaire afin de savoir si vous êtes elligible SCIC"
+description ="Répondez à ce formulaire afin de savoir si vous êtes éligible SCIC"
 type ="form-step"
 +++

@@ -66,16 +66,22 @@ body {
 
 // footer
 footer {
+  margin-top:auto;
   color: $dark;
   background: $white;
   .footer-int {
     display: flex;
     flex-direction: row;
+    justify-content:space-around;
     margin: 0 auto;
     max-width: $medium;
   }
   a {
     color: $gray;
+  }
+  ul {
+    margin:0 0 2rem;
+    padding:0;
   }
   li {
     list-style:none;
@@ -180,6 +186,17 @@ main {
           margin-bottom: 3rem;
           text-align: center;
         }
+      }
+    }
+  }
+}
+form {
+  [class*="step"] {
+    & > fieldset {
+      span {
+        display:block;
+        background:$color-highlight;
+        text-transform:uppercase;
       }
     }
   }
