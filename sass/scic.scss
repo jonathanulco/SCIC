@@ -9,11 +9,11 @@ $bgmain: #aed2dd;
 $boxshadow: 0 4px 6px 0 hsla(0%,0%,0%,0.2);
 
 // BREAKPOINT
-$tiny: 38.786em !default; // 543px
-$small: 54.786em !default; // 767px
-$medium: 70.786em !default; // 991px
-$large: 85.643em !default; // 1199px
-$extra-large: 102.786em !default; // 1439px
+$tiny: 54.3em !default; // 543px
+$small: 76.7em !default; // 767px
+$medium: 99.1em !default; // 991px
+$large: 119.9em !default; // 1199px
+$extra-large: 143.9em !default; // 1439px
 
 // SAFE MOBILE
 body {
@@ -28,8 +28,40 @@ body {
   'Helvetica Neue',
   sans-serif; /* font stack from Medium */
 }
-
+@media (min-width:$small) {
+  @font-face {
+  font-family: 'Lato';
+  src: url('/font/Lato-Regular.woff2') format('woff2');
+  }
+  @font-face {
+  font-family: 'Lato Black';
+  src: url('/font/Lato-Black.woff2') format('woff2');
+  }
+  @font-face {
+  font-family: 'Lato Bold';
+  src: url('/font/Lato-Bold.woff2') format('woff2');
+  }
+  @font-face {
+  font-family: 'Lato Light';
+  src: url('/font/Lato-Light.woff2') format('woff2');
+  }
+  body {
+    font-family:"Lato";
+  }
+  h1 {
+    font-family:"Lato Black";
+  }
+  h2 {
+    font-family:"Lato Bold";
+  }
+}
 // GENERAL
+html {
+  /* set base font-size to equiv "10px", which is adapted to rem unit */
+  font-size: 62.5%;
+  /* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
+  font-size: calc(1em * 0.625);
+}
 body {
   position: relative;
   display: flex;
@@ -51,7 +83,7 @@ body {
 .button {
   display: inline-block;
   padding: 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 2.7rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: $color-main;
@@ -61,6 +93,7 @@ body {
     border: none;
     background: $color-highlight;
     text-transform:none;
+    font-size:2.9rem;
   }
 }
 
@@ -97,8 +130,8 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 auto;
-    max-width: $medium;
-    min-height: 5rem;
+    max-width: $large;
+    min-height: 7rem;
   }
   .logo {
     font-size: 2.5rem;
@@ -106,12 +139,14 @@ footer {
   .baseline {
     margin: 0 0.5rem 0 2rem;
     line-height: 1.1;
+    font-size:1.3rem;
     span {
       display: block;
     }
   }
   nav {
     margin-left: auto;
+    font-size:1.4rem;
   }
   ul {
     display: flex;
@@ -156,6 +191,7 @@ main {
   .main-int {
     margin: 0 auto;
     max-width: $medium;
+    padding:0 5vw;
   }
 }
 // Home
@@ -170,16 +206,19 @@ main {
       text-align: center;
       background: url();
       h1 {
-        font-size: 4rem;
+        font-size: 5.7rem;
         line-height:1.1;
         color:$color-main;
         span {
           display: block;
         }
+        a {
+          font-size:2.9rem;
+        }
       }
       & + p {
         margin-bottom: 3rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
         text-align: center;
         color: $color-main;
         & + p {
@@ -195,19 +234,115 @@ form {
     & > legend {
       display:flex;
       flex-direction:column;
+      align-items:flex-start;
+      width:auto;
+      max-width:none;
+      span {
+        padding:.5rem 1rem;
+      }
       span:first-of-type {
       background:$color-highlight;
       color:$white;
       text-transform:uppercase;
       }
       span:last-of-type {
-        display:inline-block;
         background:$white;
         color:$color-main;
       }
     }
     & > fieldset legend {
-      border-left: 3px solid $color-main;
+      border-left: 3px solid $color-highlight;
+      padding-left:1rem;
+      color:$color-main;
+      font-size:1.4rem;
+    }
+    > fieldset {
+      padding:1rem 0;
+      margin-bottom:3rem;
+      label {
+        margin:0 .5rem 0 2rem;
+      }
+      input[type="radio"] {
+        vertical-align:middle;
+      }
     }
   }
+}
+// Article
+.article {
+  main {
+    background:$white;
+    color:$color-main;
+  }
+  .main-int {
+    max-width:$medium;
+  }
+  article {
+    font-size:1.8rem;
+  }
+  .cover-image {
+    object-fit:cover;
+    height:auto;
+    max-width:100%;
+  }
+  h1 {
+    font-size:4.8rem;
+  }
+  h2 {
+    font-size:3.2rem;
+  }
+  header + p strong {
+    font-size:3.2rem;
+  }
+}
+
+// Progress Bar
+#progressbar {
+  margin-top: 10vh;
+  margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+#progressbar li {
+	list-style-type: none;
+	color: $bgmain;
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 25%;
+	position: relative;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 30px;
+	line-height: 30px;
+	display: block;
+	font-size: 1rem;
+	color: $bgmain;
+	background: $color-main;
+	border-radius: 50%;
+	margin: 0 auto 5px auto;
+  text-align:center;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 8px;
+	background: $color-main;
+	position: absolute;
+	left: -50%;
+	top:11px;
+  z-index: -1;
+}
+#progressbar li:first-child:after {
+	content: none;
+}
+#progressbar li.active:before,  #progressbar li.active:after{
+	background:$color-highlight;
+	color:$color-main;
 }
