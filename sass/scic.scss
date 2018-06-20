@@ -30,29 +30,33 @@ body {
 }
 @media (min-width:$small) {
   @font-face {
-  font-family: 'Lato';
-  src: url('/font/Lato-Regular.woff2') format('woff2');
+    font-family: 'Lato';
+
+    src: url('/font/Lato-Regular.woff2') format('woff2');
   }
   @font-face {
-  font-family: 'Lato Black';
-  src: url('/font/Lato-Black.woff2') format('woff2');
+    font-family: 'Lato Black';
+
+    src: url('/font/Lato-Black.woff2') format('woff2');
   }
   @font-face {
-  font-family: 'Lato Bold';
-  src: url('/font/Lato-Bold.woff2') format('woff2');
+    font-family: 'Lato Bold';
+
+    src: url('/font/Lato-Bold.woff2') format('woff2');
   }
   @font-face {
-  font-family: 'Lato Light';
-  src: url('/font/Lato-Light.woff2') format('woff2');
+    font-family: 'Lato Light';
+
+    src: url('/font/Lato-Light.woff2') format('woff2');
   }
   body {
-    font-family:"Lato";
+    font-family: 'Lato';
   }
   h1 {
-    font-family:"Lato Black";
+    font-family: 'Lato Black';
   }
   h2 {
-    font-family:"Lato Bold";
+    font-family: 'Lato Bold';
   }
 }
 // GENERAL
@@ -89,23 +93,23 @@ body {
   color: $color-main;
   border: 5px solid $color-main;
   &.button--cta {
+    font-size: 2.9rem;
+    text-transform: none;
     color: $white;
     border: none;
     background: $color-highlight;
-    text-transform:none;
-    font-size:2.9rem;
   }
 }
 
 // footer
 footer {
-  margin-top:auto;
+  margin-top: auto;
   color: $dark;
   background: $white;
   .footer-int {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     margin: 0 auto;
     max-width: $medium;
   }
@@ -113,11 +117,11 @@ footer {
     color: $gray;
   }
   ul {
-    margin:0 0 2rem;
-    padding:0;
+    margin: 0 0 2rem;
+    padding: 0;
   }
   li {
-    list-style:none;
+    list-style: none;
   }
 }
 // Header
@@ -139,14 +143,14 @@ footer {
   .baseline {
     margin: 0 0.5rem 0 2rem;
     line-height: 1.1;
-    font-size:1.3rem;
+    font-size: 1.3rem;
     span {
       display: block;
     }
   }
   nav {
     margin-left: auto;
-    font-size:1.4rem;
+    font-size: 1.4rem;
   }
   ul {
     display: flex;
@@ -190,14 +194,14 @@ footer {
 main {
   .main-int {
     margin: 0 auto;
+    padding: 0 5vw;
     max-width: $medium;
-    padding:0 5vw;
   }
 }
 // Home
 .home {
   main {
-    padding-bottom:20vh;
+    padding-bottom: 20vh;
     header {
       display: flex;
       flex-direction: column;
@@ -206,14 +210,14 @@ main {
       text-align: center;
       background: url();
       h1 {
+        line-height: 1.1;
         font-size: 5.7rem;
-        line-height:1.1;
-        color:$color-main;
+        color: $color-main;
         span {
           display: block;
         }
         a {
-          font-size:2.9rem;
+          font-size: 2.9rem;
         }
       }
       & + p {
@@ -230,40 +234,69 @@ main {
   }
 }
 form {
-  [class*="step"] {
+  [class*='step'] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     & > legend {
-      display:flex;
-      flex-direction:column;
-      align-items:flex-start;
-      width:auto;
-      max-width:none;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      margin-bottom: 3rem;
+      width: auto;
+      max-width: none;
       span {
-        padding:.5rem 1rem;
+        padding: 0.5rem 1rem;
       }
       span:first-of-type {
-      background:$color-highlight;
-      color:$white;
-      text-transform:uppercase;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: $white;
+        background: $color-highlight;
       }
       span:last-of-type {
-        background:$white;
-        color:$color-main;
+        font-size: 2.7rem;
+        color: $color-main;
+        background: $white;
       }
     }
     & > fieldset legend {
+      padding-left: 1rem;
+      font-size: 1.8rem;
+      color: $color-main;
       border-left: 3px solid $color-highlight;
-      padding-left:1rem;
-      color:$color-main;
-      font-size:1.4rem;
     }
-    > fieldset {
-      padding:1rem 0;
-      margin-bottom:3rem;
+     > fieldset {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-bottom: 3rem;
+      padding: 1rem 0;
       label {
-        margin:0 .5rem 0 2rem;
+        margin: 0 0.5rem 0 2rem;
+        font-size: 1.8rem;
       }
-      input[type="radio"] {
-        vertical-align:middle;
+      input[type='radio'] {
+        vertical-align: middle;
+      }
+    }
+    .button {
+      margin-bottom: 3rem;
+      margin-left: auto;
+      padding: 0.3rem 1rem;
+      font-size: 1.8rem;
+      cursor: pointer;
+      color: $white;
+      border: none;
+      background: $color-highlight;
+      &:hover, a:focus {
+        text-decoration: underline;
+      }
+      &:after {
+        content: '>';
+        font-family: monospace;
+        font-weight: 900;
       }
     }
   }
@@ -271,78 +304,79 @@ form {
 // Article
 .article {
   main {
-    background:$white;
-    color:$color-main;
+    color: $color-main;
+    background: $white;
   }
   .main-int {
-    max-width:$medium;
+    max-width: $medium;
   }
   article {
-    font-size:1.8rem;
+    font-size: 1.8rem;
   }
   .cover-image {
-    object-fit:cover;
-    height:auto;
-    max-width:100%;
+    max-width: 100%;
+    height: auto;
+
+    object-fit: cover;
   }
   h1 {
-    font-size:4.8rem;
+    font-size: 4.8rem;
   }
   h2 {
-    font-size:3.2rem;
+    font-size: 3.2rem;
   }
   header + p strong {
-    font-size:3.2rem;
+    font-size: 3.2rem;
   }
 }
 
 // Progress Bar
 #progressbar {
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
   margin-top: 10vh;
   margin-bottom: 30px;
-	overflow: hidden;
-	/*CSS counters to number the steps*/
-	counter-reset: step;
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
+  /*CSS counters to number the steps*/
+  counter-reset: step;
 }
 #progressbar li {
-	list-style-type: none;
-	color: $bgmain;
-	text-transform: uppercase;
-	font-size: 9px;
-	width: 25%;
-	position: relative;
+  position: relative;
+  width: 25%;
+  list-style-type: none;
+  font-size: 9px;
+  text-transform: uppercase;
+  color: $bgmain;
 }
 #progressbar li:before {
-	content: counter(step);
-	counter-increment: step;
-	width: 30px;
-	line-height: 30px;
-	display: block;
-	font-size: 1rem;
-	color: $bgmain;
-	background: $color-main;
-	border-radius: 50%;
-	margin: 0 auto 5px auto;
-  text-align:center;
+  content: counter(step);
+  display: block;
+  margin: 0 auto 5px auto;
+  width: 30px;
+  line-height: 30px;
+  font-size: 1rem;
+  counter-increment: step;
+  text-align: center;
+  color: $bgmain;
+  border-radius: 50%;
+  background: $color-main;
 }
 /*progressbar connectors*/
 #progressbar li:after {
-	content: '';
-	width: 100%;
-	height: 8px;
-	background: $color-main;
-	position: absolute;
-	left: -50%;
-	top:11px;
+  position: absolute;
   z-index: -1;
+  content: '';
+  top: 11px;
+  left: -50%;
+  width: 100%;
+  height: 8px;
+  background: $color-main;
 }
 #progressbar li:first-child:after {
-	content: none;
+  content: none;
 }
-#progressbar li.active:before,  #progressbar li.active:after{
-	background:$color-highlight;
-	color:$color-main;
+#progressbar li.active:before, #progressbar li.active:after {
+  color: $color-main;
+  background: $color-highlight;
 }
