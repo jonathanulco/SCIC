@@ -1,11 +1,14 @@
-<form class="" action="index.html" method="post">
-  <fieldset class="step-1">
+<form id="diagnostic-form" data-current="1" class="" action="index.html" method="post">
+
+  <p class="error invisible">Vous devez compléter tous les champs pour passer à l'étape suivante.</p>
+
+  <fieldset class="step step-1">
   <legend><span>Étape 1 </span><span>cette activité a-t-elle une réalité économique ?</span></legend>
 
     <fieldset>
       <legend>Vous la menez déjà  dans une association ou une société, une collectivité territoriale et elle dégage un chiffre d’affaire</legend>
       <label for="question_1">oui</label>
-      <input id="question_1" type="radio" name="question_step_1_1">
+      <input id="question_1" type="radio" value="true" name="question_step_1_1">
       <label for="question_2">non</label>
       <input id="question_2" type="radio" name="question_step_1_1">
     </fieldset>
@@ -13,7 +16,7 @@
     <fieldset>
       <legend>Elle est fiscalisée ou susceptible de l’être car dispensée sur un marché <sup>1</sup></legend>
       <label for="question_3">oui</label>
-      <input id="question_3" type="radio" name="question_step_1_2">
+      <input id="question_3" type="radio" value="true" name="question_step_1_2">
       <label for="question_4">non</label>
       <input id="question_4" type="radio" name="question_step_1_2">
     </fieldset>
@@ -21,116 +24,123 @@
     <fieldset>
       <legend>Elle se situe dans une filière en expansion, répondant à un besoin exprimé par des usagers</legend>
       <label for="question_5">oui</label>
-      <input id="question_5" type="radio" name="question_step_1_3">
+      <input id="question_5" type="radio" value="true" name="question_step_1_3">
       <label for="question_6">non</label>
-      <input id="question_6" type="radio" name="question_step_1_3">
+      <input id="question_6" type="radio" value="false" name="question_step_1_3">
     </fieldset>
 
     <fieldset>
       <legend>Vous avez la volonté de changer d’échelle, d’augmenter les volumes d’activités</legend>
       <label for="question_7">oui</label>
-      <input id="question_7" type="radio" name="question_step_1_4">
+      <input id="question_7" type="radio" value="true" name="question_step_1_4">
       <label for="question_8">non</label>
-      <input id="question_8" type="radio" name="question_step_1_4">
+      <input id="question_8" type="radio" value="false" name="question_step_1_4">
     </fieldset>
 
     <fieldset>
       <legend>Vous avez besoin de diversifier vos ressources pour maintenir l’ensemble de vos activités</legend>
       <label for="question_9">oui</label>
-      <input id="question_9" type="radio" name="question_step_1_5">
+      <input id="question_9" type="radio" value="true" name="question_step_1_5">
       <label for="question_10">non</label>
-      <input id="question_10" type="radio" name="question_step_1_5">
+      <input id="question_10" type="radio" value="false" name="question_step_1_5">
     </fieldset>
-    <button class="button">Suivant</button>
+    <button class="button" data-dest="2">Suivant</button>
   </fieldset>
 
-  <fieldset class="step-2">
+  <fieldset class="step step-2 invisible">
   <legend><span>Étape 2 </span><span>Interrogez-vous sur l’intérêt collectif de votre projet</span></legend>
 
     <fieldset>
       <legend>Vous avez besoin de regrouper d’autres acteurs pour gérer, améliorer vos activités</legend>
       <label for="question_11">oui</label>
-      <input id="question_11" type="radio" name="question_step_2_1">
+      <input id="question_11" type="radio" value="true" name="question_step_2_1">
       <label for="question_12">non</label>
-      <input id="question_12" type="radio" name="question_step_2_1">
+      <input id="question_12" type="radio" value="false" name="question_step_2_1">
     </fieldset>
 
     <fieldset>
       <legend>Vous animez un collectif d’acteurs du sport</legend>
       <label for="question_13">oui</label>
-      <input id="question_13" type="radio" name="question_step_2_2">
+      <input id="question_13" type="radio" value="true" name="question_step_2_2">
       <label for="question_14">non</label>
-      <input id="question_14" type="radio" name="question_step_2_2">
+      <input id="question_14" type="radio" value="false" name="question_step_2_2">
     </fieldset>
 
     <fieldset>
       <legend>Parmi eux, il y a des acteurs de statuts et motivations différents (public, privé, personne physique, personne morale…) mais partageant avec vous cet objectif, des enjeux communs</legend>
       <label for="question_15">oui</label>
-      <input id="question_15" type="radio" name="question_step_2_3">
+      <input id="question_15" type="radio" value="true" name="question_step_2_3">
       <label for="question_16">non</label>
-      <input id="question_16" type="radio" name="question_step_2_3">
+      <input id="question_16" type="radio" value="false" name="question_step_2_3">
     </fieldset>
 
     <fieldset>
       <legend>Serait-il  nécessaire  de mobiliser de nouveaux partenaires ?</legend>
       <label for="question_17">oui</label>
-      <input id="question_17" type="radio" name="question_step_2_4">
+      <input id="question_17" type="radio" value="true" name="question_step_2_4">
       <label for="question_18">non</label>
-      <input id="question_18" type="radio" name="question_step_2_4">
+      <input id="question_18" type="radio" value="false" name="question_step_2_4">
     </fieldset>
 
     <fieldset>
       <legend>La coopération entre collectivités publiques, acteur sportif et pratiquant sportif est indispensable</legend>
       <label for="question_19">oui</label>
-      <input id="question_19" type="radio" name="question_step_2_5">
+      <input id="question_19" type="radio" value="true" name="question_step_2_5">
       <label for="question_20">non</label>
-      <input id="question_20" type="radio" name="question_step_2_5">
+      <input id="question_20" type="radio" value="false" name="question_step_2_5">
     </fieldset>
-    <button class="button">Suivant</button>
+    <button class="button" data-dest="3">Suivant</button>
   </fieldset>
 
-  <fieldset class="step-3">
+  <fieldset class="step step-3 invisible">
   <legend><span>Étape 3 </span><span>Quelle est l’utilité sociale de votre projet ?</span></legend>
 
     <fieldset>
       <legend>Vous souhaitez vous adresser à des publics éloignés de la pratique sportive pour des raisons de santé, de handicap, d’absence de lien social ou de capacité financière…</legend>
       <label for="question_21">oui</label>
-      <input id="question_21" type="radio" name="question_step_3_1">
+      <input id="question_21" type="radio" value="true" name="question_step_3_1">
       <label for="question_22">non</label>
-      <input id="question_22" type="radio" name="question_step_3_1">
+      <input id="question_22" type="radio" value="false" name="question_step_3_1">
     </fieldset>
 
     <fieldset>
       <legend>Vous concourez de par le mode d’organisation de votre activité à répondre à une problématique sociale (accessibilité au sport pour tous / sport santé / tourisme social / lutte pour la cohésion sociale…)</legend>
       <label for="question_23">oui</label>
-      <input id="question_23" type="radio" name="question_step_3_2">
+      <input id="question_23" type="radio" value="true" name="question_step_3_2">
       <label for="question_24">non</label>
-      <input id="question_24" type="radio" name="question_step_3_2">
+      <input id="question_24" type="radio" value="false" name="question_step_3_2">
     </fieldset>
 
     <fieldset>
       <legend>Vous envisagez de recourir à des publics en difficulté face à l’emploi pour encadrer, organiser vos activités </legend>
       <label for="question_25">oui</label>
-      <input id="question_25" type="radio" name="question_step_3_3">
+      <input id="question_25" type="radio" value="true" name="question_step_3_3">
       <label for="question_26">non</label>
-      <input id="question_26" type="radio" name="question_step_3_3">
+      <input id="question_26" type="radio" value="false" name="question_step_3_3">
     </fieldset>
 
     <fieldset>
       <legend>Vous êtes porteur de valeurs sociétales plaçant la personne au cœur des préoccupations et non pas seulement animé par une recherche de lucrativité.</legend>
       <label for="question_27">oui</label>
-      <input id="question_27" type="radio" name="question_step_3_4">
+      <input id="question_27" type="radio" value="true" name="question_step_3_4">
       <label for="question_28">non</label>
-      <input id="question_28" type="radio" name="question_step_3_4">
+      <input id="question_28" type="radio" value="false" name="question_step_3_4">
     </fieldset>
 
     <fieldset>
       <legend>La coopération entre collectivités publiques, acteur sportif et pratiquant sportif est indispensable</legend>
       <label for="question_29">oui</label>
-      <input id="question_29" type="radio" name="question_step_3_5">
+      <input id="question_29" type="radio" value="true" name="question_step_3_5">
       <label for="question_30">non</label>
-      <input id="question_30" type="radio" name="question_step_3_5">
+      <input id="question_30" type="radio" value="false" name="question_step_3_5">
     </fieldset>
-    <button class="button">Finaliser</button>
+    <button class="button" data-dest="4">Finaliser</button>
   </fieldset>
 </form>
+
+<div id="diagnostic-results" class="invisible">
+  <h2>Vos résultats (en nombre de oui)</h2>
+  <p>Etape 1: <span class="step-1"></span></p>
+  <p>Etape 2: <span class="step-2"></span></p>
+  <p>Etape 3: <span class="step-3"></span></p>
+</div>
