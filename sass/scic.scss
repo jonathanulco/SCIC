@@ -72,7 +72,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   color: $dark;
-  background: $bgmain;
+  background: $color-main;
+  background: linear-gradient(to bottom, $bgmain 0%,$bgmain 50%,$color-main 51%,$color-main 100%);
 }
 .invisible {
   position: absolute;
@@ -198,6 +199,9 @@ footer {
 }
 // Main
 main {
+  position:relative;
+  border-radius:0 0 50% 50%;
+  background:$bgmain;
   .main-int {
     margin: 0 auto;
     padding: 0 5vw;
@@ -208,8 +212,8 @@ main {
 .home {
   main {
     margin:10vh 0;
-    padding-bottom: 20vh;
-    background: url(../images/interrogation.svg) 50% 100% no-repeat;
+    padding-bottom: 30vh;
+    background:$bgmain url(../images/interrogation.svg) 50% 100% no-repeat;
     background-size:contain;
     header {
       display: flex;
@@ -318,9 +322,12 @@ form {
 }
 // Article
 .article {
+  background:$bgmain;
   main {
     color: $color-main;
     background: $white;
+    border-radius:0 0 0 0;
+    padding-bottom:10vh;
   }
   .main-int {
     max-width: $medium;
@@ -397,11 +404,14 @@ form {
 }
 //404
 .page404 {
-  main header {
+  main article {
     font-size: 2.5em;
     margin: 20vh 0;
     min-height: 60vh;
     h1 {
+      color:$color-main;
+    }
+    a {
       color:$color-main;
     }
   }
