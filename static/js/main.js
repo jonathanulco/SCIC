@@ -124,11 +124,11 @@ function formError(showError){
 }
 
 function hide($element){
-    $element.classList.add('invisible')
+    $element.classList.add('hidden')
 }
 
 function show($element){
-    $element.classList.remove('invisible')
+    $element.classList.remove('hidden')
 }
 
 function scrollToTop(){
