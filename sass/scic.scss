@@ -172,10 +172,10 @@ footer {
   nav a {
     position: relative;
     display: block;
+    overflow: hidden;
     font-weight: 900;
     text-transform: uppercase;
     color: $white;
-    overflow:hidden;
     &:hover, &:focus {
       text-decoration: none;
       color: $white;
@@ -199,10 +199,10 @@ footer {
 }
 // Main
 main {
-  position:relative;
-  z-index:-2;
-  border-radius:0 0 50% 50%;
-  background:$bgmain;
+  position: relative;
+  z-index: -2;
+  border-radius: 0 0 50% 50%;
+  background: $bgmain;
   .main-int {
     margin: 0 auto;
     padding: 0 5vw;
@@ -212,10 +212,10 @@ main {
 // Home
 .home {
   main {
-    margin:10vh 0;
+    margin: 10vh 0;
     padding-bottom: 30vh;
-    background:$bgmain url(../images/interrogation.svg) 50% 100% no-repeat;
-    background-size:contain;
+    background: $bgmain url(../images/interrogation.svg) 50% 100% no-repeat;
+    background-size: contain;
     header {
       display: flex;
       flex-direction: column;
@@ -245,6 +245,28 @@ main {
       }
     }
   }
+}
+// Résultats
+.diagnostic-results {
+  background: $bgmain;
+  h2 {
+    line-height: 1.1;
+    font-size: 4.8rem;
+    color: $color-main;
+  }
+  ul, p {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    color: $color-main;
+  }
+}
+.title {
+  margin-top: 20vh;
+  line-height: 1.1;
+  font-size: 5.7rem;
+  text-align: center;
+  color: $color-main;
 }
 form {
   .error {
@@ -302,7 +324,7 @@ form {
       }
     }
     .button {
-      margin-bottom: 3rem;
+      margin-bottom: 15rem;
       margin-left: auto;
       padding: 0.3rem 1rem;
       font-size: 1.8rem;
@@ -321,17 +343,17 @@ form {
     }
   }
   [class*='hidden'] {
-    display:none;
+    display: none;
   }
 }
 // Article
 .article {
-  background:$bgmain;
+  background: $bgmain;
   main {
+    padding-bottom: 10vh;
     color: $color-main;
+    border-radius: 0 0 0 0;
     background: $white;
-    border-radius:0 0 0 0;
-    padding-bottom:10vh;
   }
   .main-int {
     max-width: $medium;
@@ -362,8 +384,8 @@ form {
   overflow: hidden;
   flex-direction: row;
   justify-content: center;
-  margin:20vh 0 30px;
-  padding:0;
+  margin: 20vh 0 30px;
+  padding: 0;
   /*CSS counters to number the steps*/
   counter-reset: step;
 }
@@ -409,14 +431,14 @@ form {
 //404
 .page404 {
   main article {
-    font-size: 2.5em;
     margin: 20vh 0;
     min-height: 60vh;
+    font-size: 2.5em;
     h1 {
-      color:$color-main;
+      color: $color-main;
     }
     a {
-      color:$color-main;
+      color: $color-main;
     }
   }
 }
