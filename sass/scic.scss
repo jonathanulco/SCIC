@@ -200,6 +200,7 @@ footer {
 // Main
 main {
   position:relative;
+  z-index:-2;
   border-radius:0 0 50% 50%;
   background:$bgmain;
   .main-int {
@@ -319,6 +320,9 @@ form {
       }
     }
   }
+  [class*='hidden'] {
+    display:none;
+  }
 }
 // Article
 .article {
@@ -358,8 +362,8 @@ form {
   overflow: hidden;
   flex-direction: row;
   justify-content: center;
-  margin-top: 10vh;
-  margin-bottom: 30px;
+  margin:20vh 0 30px;
+  padding:0;
   /*CSS counters to number the steps*/
   counter-reset: step;
 }
