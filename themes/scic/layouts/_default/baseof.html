@@ -38,6 +38,7 @@
       pouvez aussi <a href="http://browsehappy.com/">essayer d’autres navigateurs web populaires</a>.</p><![endif]-->
   </head>
   <body class="{{block "bodyclass" .}}{{end}}">
+  {{ partial "nav-skip" .}}  
   {{ partial "header" .}}
   <main role="main" id="main" class="main">
     {{ block "main" . }}{{ end }}

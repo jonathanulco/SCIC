@@ -72,8 +72,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   color: $dark;
-  background: $color-main;
-  background: linear-gradient(to bottom, $bgmain 0%,$bgmain 50%,$color-main 51%,$color-main 100%);
+  background: $bgmain;
 }
 .invisible {
   position: absolute;
@@ -200,8 +199,6 @@ footer {
 // Main
 main {
   position: relative;
-  z-index: -2;
-  border-radius: 0 0 50% 50%;
   background: $bgmain;
   .main-int {
     margin: 0 auto;
@@ -214,13 +211,16 @@ main {
   main {
     margin: 10vh 0;
     padding-bottom: 30vh;
-    background: $bgmain url(../images/interrogation.svg) 50% 100% no-repeat;
-    background-size: contain;
+    background-color:$bgmain;
+    background:url(../images/coureurs.svg),url(../images/interrogation.svg);
+    background-repeat:no-repeat;
+    background-position:0 100%,50% 50%;
+    background-size: 30%, contain;
     header {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      min-height: 70vh;
+      min-height:50vh;
       text-align: center;
       h1 {
         line-height: 1.1;
@@ -234,10 +234,11 @@ main {
         }
       }
       & + p {
-        margin-bottom: 3rem;
+        margin:0 auto 3rem;
         font-size: 2rem;
         text-align: center;
         color: $color-main;
+        max-width:70%;
         & + p {
           margin-bottom: 3rem;
           text-align: center;
@@ -352,7 +353,6 @@ form {
   main {
     padding-bottom: 10vh;
     color: $color-main;
-    border-radius: 0 0 0 0;
     background: $white;
   }
   .main-int {
@@ -441,4 +441,27 @@ form {
       color: $color-main;
     }
   }
+}
+// skiplink
+.skipnav {
+  text-align: left;
+}
+.skipnav a {
+  position: absolute;
+  left: -10000px;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+}
+.skipnav a:focus, .skipnav a:active {
+  position: static;
+  left: 0;
+  display: block;
+  overflow: visible;
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  text-decoration: underline;
+  color: $white;
+  background:$dark;
 }
