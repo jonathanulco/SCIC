@@ -6,8 +6,9 @@ var $form,
     FINAL_STEP = 4;
 
 document.addEventListener("DOMContentLoaded", function(event) {
-    init();
-    if($formButtons && $progressbarButtons){
+    $form = document.getElementById('diagnostic-form');
+    if($form){
+        init();
         addEventToButtons($formButtons);
         addEventToButtons($progressbarButtons);
     }
@@ -15,12 +16,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 function init(){
     $progressbar = document.getElementById('progressbar');
-    if($progressbar){
-        $progressbarButtons = $progressbar.querySelectorAll('li');
-        $form = document.getElementById('diagnostic-form');
-        $formButtons = $form.querySelectorAll("button");
-        $results = document.getElementById('diagnostic-results');
-    }
+    $progressbarButtons = $progressbar.querySelectorAll('li');
+    $formButtons = $form.querySelectorAll("button");
+    $results = document.getElementById('diagnostic-results');
 }
 
 function addEventToButtons($buttons){
