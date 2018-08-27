@@ -465,3 +465,30 @@ form {
   color: $white;
   background:$dark;
 }
+
+/* Resultats */
+.circle{
+  display: inline-block;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background: #0056b3;
+}
+
+[data-nb-yes='0'] .circle:nth-child(n+1),
+[data-nb-yes='1'] .circle:nth-child(n+2),
+[data-nb-yes='2'] .circle:nth-child(n+3),
+[data-nb-yes='3'] .circle:nth-child(n+4),
+[data-nb-yes='4'] .circle:nth-child(n+5){
+  background: #7f7f7f;
+}
+
+.container-links-scenario a{
+  display: none;
+}
+.container-links-scenario[data-scenario='1'] .link-scenario-1,
+.container-links-scenario[data-scenario='2'] .link-scenario-2,
+.container-links-scenario[data-scenario='3'] .link-scenario-3{
+  display: block;
+}

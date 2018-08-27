@@ -7,16 +7,20 @@ var $form,
 
 document.addEventListener("DOMContentLoaded", function(event) {
     init();
-    addEventToButtons($formButtons);
-    addEventToButtons($progressbarButtons);
+    if($formButtons && $progressbarButtons){
+        addEventToButtons($formButtons);
+        addEventToButtons($progressbarButtons);
+    }
 });
 
 function init(){
     $progressbar = document.getElementById('progressbar');
-    $progressbarButtons = $progressbar.querySelectorAll('li');
-    $form = document.getElementById('diagnostic-form');
-    $formButtons = $form.querySelectorAll("button");
-    $results = document.getElementById('diagnostic-results');
+    if($progressbar){
+        $progressbarButtons = $progressbar.querySelectorAll('li');
+        $form = document.getElementById('diagnostic-form');
+        $formButtons = $form.querySelectorAll("button");
+        $results = document.getElementById('diagnostic-results');
+    }
 }
 
 function addEventToButtons($buttons){
@@ -24,21 +28,22 @@ function addEventToButtons($buttons){
         $btn.addEventListener("click", function(e){
             e.preventDefault();
             var dest = $btn.dataset.dest;
-            if(canChangeStep(dest)){
-                goToNextStep(dest);
-                formError(false);
-            }else{
-                formError(true);
+            var currentStep = $form.dataset.current
+
+            if(dest !== currentStep && dest <= FINAL_STEP){
+                if(canChangeStep(dest, currentStep)){
+                    goToNextStep(dest);
+                    formError(false);
+                }else{
+                    formError(true);
+                }
+                scrollToTop();
             }
-            scrollToTop();
         })
     });
 }
 
-function canChangeStep(nextStep){
-    var currentStep = $form.dataset.current;
-    var result = false;
-
+function canChangeStep(nextStep, currentStep){
     //si la prochaine étape est supérieure à l'actuelle,
     // on vérifie que tous les bouttons radio des étapes précédentes sont cochés.
     return !(nextStep - currentStep > 0 && !arePreviousRadioChecked(nextStep)) ;
@@ -59,7 +64,9 @@ function goToNextStep(nextStep){
         hide($results);
     }
     $form.dataset.current = nextStep;
-    hide($currentFieldSet);
+    if(currentStep != FINAL_STEP ){
+        hide($currentFieldSet);
+    }
     updateProgressBar(nextStep);
 }
 
@@ -92,10 +99,24 @@ function updateProgressBar(nextStep){
 }
 
 function updateResults(){
+    var nbYesByStep = [];
+    var nbYes;
+
     for(var i = 1; i < FINAL_STEP; i++){
-        var nbYes = countYesOfStep(i);
-        $results.querySelector('.step-' + i).innerHTML = nbYes;
+        nbYes = countYesOfStep(i);
+        $results.querySelector('.results-step-' + i).dataset.nbYes = nbYes;
+        nbYesByStep[i-1] = nbYes;
     }
+
+    var minimumNbYes = Array.min(nbYesByStep);
+    var scenario = 3;
+    if(minimumNbYes >= 3){
+        scenario = 1;
+    }else if(minimumNbYes >= 2){
+        scenario = 2;
+    }
+
+    $results.querySelector('.container-links-scenario').dataset.scenario = scenario;
 
 }
 
@@ -124,13 +145,18 @@ function formError(showError){
 }
 
 function hide($element){
-    $element.classList.add('hidden')
+    $element.classList.add('hidden');
 }
 
 function show($element){
-    $element.classList.remove('hidden')
+    $element.classList.remove('hidden');
+    document.title = $element.dataset.pageTitle;
 }
 
 function scrollToTop(){
     window.scrollTo(0, 0);
 }
+
+Array.min = function( array ){
+    return Math.min.apply( Math, array );
+};
