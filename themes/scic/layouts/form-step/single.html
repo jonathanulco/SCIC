@@ -3,8 +3,8 @@
 {{ end }}
 {{ define "main" }}
   <div class="main-int">
-    <h1 class="title">{{ .Title }}</h1>
     {{ partial "progressbar" . }}
+    <h1 class="title">{{ .Title }}</h1>  
     {{ partial "form" . }}
   </div>
 {{ end }}

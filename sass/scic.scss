@@ -379,7 +379,7 @@ form {
 }
 
 // Progress Bar
-#progressbar {
+.progressbar {
   display: flex;
   overflow: hidden;
   flex-direction: row;
@@ -388,46 +388,48 @@ form {
   padding: 0;
   /*CSS counters to number the steps*/
   counter-reset: step;
-}
-#progressbar li {
-  position: relative;
-  width: 20%;
-  list-style-type: none;
-  text-transform: uppercase;
-  color: $bgmain;
-}
-#progressbar li:before {
-  position: relative;
-  z-index: 1;
-  content: counter(step);
-  display: block;
-  margin: 0 auto 5px auto;
-  width: 40px;
-  line-height: 40px;
-  font-size: 2rem;
-  counter-increment: step;
-  text-align: center;
-  color: $bgmain;
-  border-radius: 50%;
-  background: $color-main;
-}
-/*progressbar connectors*/
-#progressbar li:after {
-  position: absolute;
-  z-index: 0;
-  content: '';
-  top: 17px;
-  left: -50%;
-  width: 100%;
-  height: 8px;
-  background: $color-main;
-}
-#progressbar li:first-child:after {
-  content: none;
-}
-#progressbar li.active:before, #progressbar li.active:after {
-  color: $white;
-  background: $color-highlight;
+  li {
+    position: relative;
+    width: 25%;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: $bgmain;
+  }
+  li:before {
+    position: relative;
+    z-index: 1;
+    content: counter(step);
+    display: block;
+    margin: 0 auto 5px auto;
+    width: 40px;
+    line-height: 40px;
+    font-size: 2rem;
+    counter-increment: step;
+    text-align: center;
+    color: $bgmain;
+    border-radius: 50%;
+    background: $color-main;
+  }
+  li:after {
+    position: absolute;
+    z-index: 0;
+    content: '';
+    top: 17px;
+    left: -50%;
+    width: 100%;
+    height: 8px;
+    background: $color-main;
+  } 
+  li:first-child:after {
+    content: none;
+  }
+  li.active:before, li.active:after {
+    color: $white;
+    background: $color-highlight;
+  }
+  & + h1 {
+    margin:3.5rem 0;
+  }
 }
 //404
 .page404 {
@@ -474,7 +476,8 @@ form {
       flex-direction: column;
       justify-content: center;
       align-items:center;
-      h1 {
+      h2 {
+        font-size:3rem;
         padding:1rem 1.5rem;
         margin-bottom:3rem;
         display: inline-block;
@@ -482,7 +485,7 @@ form {
         color: $white;
         background: $color-highlight;
       }
-      h2 {
+      h3 {
         font-size:2rem;
         margin-bottom:2rem;
       }
