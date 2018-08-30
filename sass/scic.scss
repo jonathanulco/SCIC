@@ -281,13 +281,14 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    & > legend {
+    & > legend em {
       display: flex;
       align-items: flex-start;
       flex-direction: column;
       margin-bottom: 3rem;
       width: auto;
       max-width: none;
+      font-style:normal;
       span {
         padding: 0.5rem 1rem;
       }
