@@ -1,0 +1,11 @@
+{{ define "bodyclass"}}result{{end}}
+{{ define "main" }}
+  <div class="main-int">
+    <article>
+      <header>
+        <h1>{{ htmlUnescape (replace .Title " !" "&amp;!") }}</h1>
+      </header>
+      {{ .Content }}
+    </article>
+  </div>
+{{ end }}
