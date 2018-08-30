@@ -384,6 +384,7 @@ form {
   overflow: hidden;
   flex-direction: row;
   justify-content: center;
+  align-items:center;
   margin: 20vh 0 30px;
   padding: 0;
   /*CSS counters to number the steps*/
@@ -426,6 +427,16 @@ form {
   li.active:before, li.active:after {
     color: $white;
     background: $color-highlight;
+  }
+  li:nth-of-type(4):before {
+    background:$color-main url(../images/last-step.svg) no-repeat 50% 50%;
+    background-size:60%;
+    width:50px;
+    height:50px;
+    content:'';
+  }
+  li:nth-of-type(4):after {
+    top:23px;
   }
   & + h1 {
     margin:3.5rem 0;
@@ -499,23 +510,59 @@ form {
         font-weight:900;
         text-decoration:underline;
       }
+      .container-links-scenario {
+        margin-bottom:8rem;
+        align-self:flex-end;
+        a {
+          margin-bottom: 15rem;
+          margin-left: auto;
+          padding: 0.3rem 1rem;
+          font-size: 2rem;
+          cursor: pointer;
+          color: $white;
+          border: none;
+          background: $color-highlight;
+          text-transform:uppercase;
+          &:hover, a:focus {
+            text-decoration: underline;
+          }
+          &:after {
+            content: '>';
+            font-family: monospace;
+            font-weight: 900;
+          }
+        }
+      }
   }
 }
 .circle {
   display: inline-block;
   margin-right: 10px;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
-  background:$color-highlight url(/img/tennis-orange-balls.svg) no-repeat 50% 50%;
+  background:url(../images/tennis-orange-balls.svg) no-repeat 50% 50%;
+}
+.circle:nth-of-type(2) {
+  transform:rotate(-30deg);
+}
+.circle:nth-of-type(3) {
+  transform:rotate(30deg);
+}
+.circle:nth-of-type(4) {
+  transform:rotate(45deg);
+}
+.circle:nth-of-type(5) {
+  transform:rotate(120deg);
+}
+.circle:nth-of-type(6) {
+  transform:rotate(270deg);
 }
 
 [data-nb-yes='0'] .circle:nth-child(n+1), [data-nb-yes='1'] .circle:nth-child(n+2), [data-nb-yes='2'] .circle:nth-child(n+3), [data-nb-yes='3'] .circle:nth-child(n+4), [data-nb-yes='4'] .circle:nth-child(n+5) {
-  background:$white url(/img/tennis-white-balls.svg) no-repeat 50% 50%;
+  background:url(../images/tennis-white-balls.svg) no-repeat 50% 50%;
 }
-.container-links-scenario {
-  margin-bottom:8rem;
-}
+
 
 .container-links-scenario a {
   display: none;
