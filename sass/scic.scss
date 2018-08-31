@@ -103,7 +103,9 @@ body {
     background: $color-highlight;
   }
 }
-
+.js-to_expand[aria-hidden=true], .js-to_expand[data-hidden=true] {
+  display: none;
+}
 // footer
 footer {
   margin-top: auto;
@@ -113,10 +115,15 @@ footer {
   background: $white;
   .footer-int {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
     max-width: $medium;
+    @media (min-width:$small) {
+      & {
+        flex-direction:row;
+      }
+    }
   }
   a {
     color: $gray;
@@ -127,6 +134,12 @@ footer {
   }
   li {
     list-style: none;
+    margin:1rem 0;
+    @media (min-width:$small) {
+      & {
+        margin:0;
+      }
+    }
   }
 }
 // Header
@@ -156,25 +169,47 @@ footer {
   nav {
     margin-left: auto;
     font-size: 1.4rem;
+    width:100%;
+    @media (min-width:$small) {
+      & {
+        width:auto;
+      }
+    }
   }
   ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
     flex-wrap: wrap;
     margin: 0 1rem;
     padding: 0;
+    @media (min-width:$small) {
+      & {
+        flex-direction:row;
+      }
+    }
   }
   li {
-    margin: 0 0.8rem;
+    margin: 1.5rem 1rem;
     list-style: none;
+    @media (min-width:$small) {
+      & {
+        margin: 0 1rem;
+      }
+    }
   }
-  nav a {
+  nav a, nav p, nav button {
     position: relative;
     display: block;
     overflow: hidden;
     font-weight: 900;
+    cursor: pointer;
     text-transform: uppercase;
     color: $white;
+    border: none;
+    background: $color-main;
+    margin:0;
     &:hover, &:focus {
       text-decoration: none;
       color: $white;
@@ -193,6 +228,31 @@ footer {
     span {
       position: relative;
       z-index: 2;
+    }
+    & + ul {
+      position: relative;
+      z-index: 99;
+      left: 50%;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      transform: translateX(-50%);
+      background: $color-main;
+      @media (min-width:$small) {
+        position: absolute;
+      }
+      li {
+        margin: 0;
+      }
+      a {
+        display: block;
+        padding: 1rem;
+        text-align: center;
+        &:hover, &:focus {
+          background: $color-highlight;
+        }
+      }
     }
   }
 }
@@ -425,10 +485,6 @@ form {
   li:first-child:after {
     content: none;
   }
-  li.active:before, li.active:after {
-    color: $white;
-    background: $color-highlight;
-  }
   li:nth-of-type(4):before {
     content: '';
     width: 50px;
@@ -438,6 +494,10 @@ form {
   }
   li:nth-of-type(4):after {
     top: 23px;
+  }
+  li.active:before, li.active:after {
+    color: $white;
+    background-color: $color-highlight;
   }
   & + h1 {
     margin: 3.5rem 0;

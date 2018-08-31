@@ -11,7 +11,8 @@
     "gulp-sourcemaps": "^2.6.4",
     "node-sass-magic-importer": "^5.2.0",
     "rimraf": "^2.6.2",
-    "uncss": "^0.16.2"
+    "uncss": "^0.16.2",
+    "van11y-accessible-hide-show-aria": "^3.0.1"
   },
   "name": "scic",
   "description": "## Stack de Scic Les principaux outils : - Le Générateur de Site Static [Hugo](gohugo.io) - [Netlify](https://app.netlify.com/) - [Final Form](https://github.com/final-form/final-form)",

@@ -1,6 +1,14 @@
 <nav itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation" class="navigation">
   <ul class="flex-container">
     {{ $currentNode := . }}
+      <li>
+        <p class="js-expandmore"><span>Vous êtes</span></p>
+        <ul class="js-to_expand">
+          <li><a href=""><span>Une association sportive</span></a></li>
+          <li><a href=""><span>Une fédération sportive</span></a></li>
+          <li><a href=""><span>Une collectivité territoriale</span></a></li>
+        </ul>
+      </li>
     {{ range .Site.Menus.main }}
       <li class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}">
         <a  href="{{ .URL }}"><span>{{ .Name }}</span></a>
