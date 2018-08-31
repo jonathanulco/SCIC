@@ -146,6 +146,12 @@ footer {
 .banner {
   color: $bgmain;
   background: $color-main;
+  padding:1rem;
+  @media (min-width:$small) {
+    & {
+      padding:0;
+    }
+  }
   .header-int {
     display: flex;
     align-items: center;
@@ -159,9 +165,14 @@ footer {
     font-size: 2.5rem;
   }
   .baseline {
-    margin: 0 0.5rem 0 2rem;
+    margin:0;
     line-height: 1.1;
     font-size: 1.3rem;
+    @media (min-width:$small) {
+      & {
+        margin: 0 0.5rem 0 2rem; 
+      }
+    }
     span {
       display: block;
     }
@@ -265,7 +276,8 @@ footer {
 // Main
 main {
   position: relative;
-  background: $bgmain;
+  background:$bgmain url(../images/wave.svg) no-repeat 50% 100%;
+  background-size:100%;
   .main-int {
     margin: 0 auto;
     padding: 0 5vw;
@@ -275,13 +287,13 @@ main {
 // Home
 .home {
   main {
-    margin: 10vh 0;
-    padding-bottom: 30vh;
+    margin: 10vh 0 0;
+    padding-bottom: 50vh;
     background: url(../images/coureurs.svg),url(../images/interrogation.svg),url(../images/wave.svg);
     background-color: $bgmain;
     background-repeat: no-repeat;
-    background-position: 0 100%,50% 50%;
-    background-size: 30%, contain;
+    background-position: 0 100%,50% 30%, 50% 100%;
+    background-size: 30%, 20%, 100%;
     header {
       display: flex;
       flex-direction: column;
@@ -377,10 +389,6 @@ form {
       border-left: 3px solid $color-highlight;
     }
      > fieldset {
-      display: flex;
-      align-items: center;
-      flex-direction: row;
-      justify-content: flex-start;
       margin-bottom: 3rem;
       padding: 1rem 0;
       label {
