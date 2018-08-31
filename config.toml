@@ -11,16 +11,6 @@ description = "Un outil au service des associations et des collectivités pour l
   identifier = "diagnostic"
   url = "/diagnostic/"
 [[menu.main]]
-  name = "À propos"
-  weight = 1
-  identifier = "about"
-  url = "/a-propos/"
-[[menu.main]]
-  name = "Témoignages"
-  weight = 1
-  identifier = "temoignage"
-  url = "/temoignages/"
-[[menu.main]]
   name = "Foire aux questions"
   weight = 1
   identifier = "faq"

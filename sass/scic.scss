@@ -121,7 +121,7 @@ footer {
     max-width: $medium;
     @media (min-width:$small) {
       & {
-        flex-direction:row;
+        flex-direction: row;
       }
     }
   }
@@ -133,11 +133,11 @@ footer {
     padding: 0;
   }
   li {
+    margin: 1rem 0;
     list-style: none;
-    margin:1rem 0;
     @media (min-width:$small) {
       & {
-        margin:0;
+        margin: 0;
       }
     }
   }
@@ -168,25 +168,25 @@ footer {
   }
   nav {
     margin-left: auto;
+    width: 100%;
     font-size: 1.4rem;
-    width:100%;
     @media (min-width:$small) {
       & {
-        width:auto;
+        width: auto;
       }
     }
   }
   ul {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 0 1rem;
     padding: 0;
     @media (min-width:$small) {
       & {
-        flex-direction:row;
+        flex-direction: row;
       }
     }
   }
@@ -195,21 +195,25 @@ footer {
     list-style: none;
     @media (min-width:$small) {
       & {
+        position: relative;
         margin: 0 1rem;
       }
     }
+  }
+  li:nth-of-type(2) {
+    order: -1;
   }
   nav a, nav p, nav button {
     position: relative;
     display: block;
     overflow: hidden;
+    margin: 0;
     font-weight: 900;
     cursor: pointer;
     text-transform: uppercase;
     color: $white;
     border: none;
     background: $color-main;
-    margin:0;
     &:hover, &:focus {
       text-decoration: none;
       color: $white;
@@ -237,6 +241,7 @@ footer {
       flex-direction: column;
       margin: 0;
       padding: 0;
+      min-width: 28rem;
       transform: translateX(-50%);
       background: $color-main;
       @media (min-width:$small) {
@@ -244,6 +249,7 @@ footer {
       }
       li {
         margin: 0;
+        width: 100%;
       }
       a {
         display: block;
