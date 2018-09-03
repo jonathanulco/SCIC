@@ -3,6 +3,7 @@ var $form,
     $progressbar,
     $progressbarButtons,
     $results,
+    $main,
     FINAL_STEP = 4;
 
 document.addEventListener("DOMContentLoaded", function(event) {
@@ -19,6 +20,7 @@ function init(){
     $progressbarButtons = $progressbar.querySelectorAll('li');
     $formButtons = $form.querySelectorAll("button");
     $results = document.getElementById('diagnostic-results');
+    $main = document.getElementById('main');
 }
 
 function addEventToButtons($buttons){
@@ -134,7 +136,7 @@ function countYesOfStep(step){
 }
 
 function formError(showError){
-    $element =  $form.querySelector('.error');
+    $element =  $form.querySelector('.error'); 
     if(showError){
         show($element);
     }else{
@@ -144,11 +146,14 @@ function formError(showError){
 
 function hide($element){
     $element.classList.add('hidden');
+    $main.classList.remove($element.dataset.class);
 }
 
 function show($element){
     $element.classList.remove('hidden');
+    $main.classList.add($element.dataset.class);
     document.title = $element.dataset.pageTitle;
+    
 }
 
 function scrollToTop(){
