@@ -12,6 +12,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
         init();
         addEventToButtons($formButtons);
         addEventToButtons($progressbarButtons);
+
+        //active step 1
+        var $step1 = $form.querySelector('.step-1');     
+        $main.classList.add($step1.dataset.class);   
+        document.title = $step1.dataset.pageTitle;
+    
     }
 });
 
@@ -49,21 +55,40 @@ function canChangeStep(nextStep, currentStep){
     return !(nextStep - currentStep > 0 && !arePreviousRadioChecked(nextStep)) ;
 }
 
-function goToNextStep(nextStep){
+function goToNextStep(nextStep){    
     var currentStep = $form.dataset.current;
     var $currentFieldSet = $form.querySelector('.step-' + currentStep);
     var $nextFieldSet = $form.querySelector('.step-' + nextStep);
+    var oldMainClass = $currentFieldSet ? $currentFieldSet.dataset.class : null;
+    var newMainClass,
+        newPageTitle;
 
     if(nextStep == FINAL_STEP){
         hide($form);
-        show($results);
+        show($results);        
         updateResults();
+        newPageTitle = $results.dataset.pageTitle;
+        newMainClass = $results.dataset.class;
     }else{
         show($form);
         show($nextFieldSet);
         hide($results);
+        newPageTitle = $nextFieldSet.dataset.pageTitle;
+        newMainClass = $nextFieldSet.dataset.class;
     }
+
+    //update main class
+    if(oldMainClass){
+        $main.classList.remove(oldMainClass);    
+    }
+    $main.classList.add(newMainClass);
+
+    //update page title
+    document.title = newPageTitle;
+
+    //update curent set data
     $form.dataset.current = nextStep;
+
     if(currentStep != FINAL_STEP ){
         hide($currentFieldSet);
     }
@@ -146,14 +171,10 @@ function formError(showError){
 
 function hide($element){
     $element.classList.add('hidden');
-    $main.classList.remove($element.dataset.class);
 }
 
 function show($element){
-    $element.classList.remove('hidden');
-    $main.classList.add($element.dataset.class);
-    document.title = $element.dataset.pageTitle;
-    
+    $element.classList.remove('hidden');    
 }
 
 function scrollToTop(){
