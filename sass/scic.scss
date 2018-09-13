@@ -326,6 +326,29 @@ main {
   }
 }
 // Résultats
+.form-step main {
+  background: url(../images/main-step-1.svg),url(../images/wave.svg);
+  background-color: $bgmain;
+  background-repeat: no-repeat;
+  background-position: 100% 78%, 50% 100%;
+  background-size: 15%, 100%;
+  &.main-step-2,
+  &.main-step-3 {
+    background: url(../images/main-step-2.svg),url(../images/wave.svg);
+    background-color: $bgmain;
+    background-repeat: no-repeat;
+    background-position: 100% 80%, 50% 100%;
+    background-size: 18%, 100%;
+  }
+  &.main-step-results {
+    background: url(../images/main-step-results.svg),url(../images/wave.svg);
+    background-color: $bgmain;
+    background-repeat: no-repeat;
+    background-position: 100% 80%, 50% 100%;
+    background-size: 20%, 100%;  
+  }  
+}
+
 .diagnostic-results {
   h2 {
     line-height: 1.1;
@@ -347,6 +370,10 @@ main {
   color: $color-main;
 }
 form {
+  .required {
+    font-size:1.4rem;
+    color:$color-main;
+  }
   .error {
     padding: 1rem 2rem;
     font-size: 1.4rem;

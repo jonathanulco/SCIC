@@ -37,7 +37,7 @@
       href="http://windows.microsoft.com/ie">mise à jour de votre navigateur</a>. Vous
       pouvez aussi <a href="http://browsehappy.com/">essayer d’autres navigateurs web populaires</a>.</p><![endif]-->
   </head>
-  <body class="{{block "bodyclass" .}}{{end}}">
+  <body class="{{ .Params.bodyclass }}{{block "bodyclass" .}}{{end}}">
   {{ partial "nav-skip" .}}  
   {{ partial "header" .}}
   <main role="main" id="main" class="main">
