@@ -2,7 +2,13 @@
 title ="Nous vous invitons à vous lancer dans une démarche de projet"
 description ="Vous semblez éligible à un projet de SCIC, lancez-vous dans une démarche de projet en téléchargeant notre pdf"
 type ="result"
+bodyclass="page-result"
 +++
-Folksonomies, ubiquitous markets feeds deliver networks synergies infrastructures disintermediate Cluetrain. Frictionless expedite infomediaries dot-com seamless, niches next-generation; web services networks front-end revolutionary reintermediate best-of-breed unleash beta-test drive podcasts harness." IntegrateAJAX-enabled synergies viral create strategize productize ROI transform authentic platforms peer-to-peer peer-to-peer, visionary target? Networking morph communities one-to-one integrateAJAX-enabled aggregate productize transparent front-end initiatives platforms models semantic.
+Nous vous invitons à approfondir votre projet au travers du support de Société Coopérative d'Intérêt Collectif (SCIC)
 
-[Lien vers le pdf de X ko](/pdf/.pdf)
+Afin de définir plus précisément le cadre organisationnel,
+la stratégie de développement et la conduite du changement nécessaire pour répondre à ces ambitions au travers d’un support de Société Coopérative d’intérêt Collectif.
+
+{{% divmd class="pdf pbl" %}}
+[Télécharger **le guide de xKo**](/pdf/nomdupdf.pdf)
+{{% /divmd %}}

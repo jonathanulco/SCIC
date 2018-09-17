@@ -326,27 +326,36 @@ main {
   }
 }
 // Résultats
-.form-step main {
-  background: url(../images/main-step-1.svg),url(../images/wave.svg);
-  background-color: $bgmain;
-  background-repeat: no-repeat;
-  background-position: 100% 78%, 50% 100%;
-  background-size: 15%, 100%;
-  &.main-step-2,
-  &.main-step-3 {
-    background: url(../images/main-step-2.svg),url(../images/wave.svg);
+@media (min-width:$small) {
+  .form-step main {
+    background: url(../images/main-step-1.svg),url(../images/wave.svg);
     background-color: $bgmain;
     background-repeat: no-repeat;
-    background-position: 100% 80%, 50% 100%;
-    background-size: 18%, 100%;
+    background-position: 100% 90%, 50% 100%;
+    background-size: 31%, 100%;
+    &.main-step-2,
+     {
+      background: url(../images/main-step-2.svg),url(../images/wave.svg);
+      background-color: $bgmain;
+      background-repeat: no-repeat;
+      background-position: 100% 80%, 50% 100%;
+      background-size: 20%, 100%;
+    }
+    &.main-step-3 {
+      background: url(../images/main-step-3.svg),url(../images/wave.svg);
+      background-color: $bgmain;
+      background-repeat: no-repeat;
+      background-position: 97% 98%, 50% 100%;
+      background-size: 28%, 100%;
+    }
+    &.main-step-results {
+      background: url(../images/main-step-4.svg),url(../images/wave.svg);
+      background-color: $bgmain;
+      background-repeat: no-repeat;
+      background-position: 0 80%, 50% 100%;
+      background-size: 30%, 100%;  
+    }  
   }
-  &.main-step-results {
-    background: url(../images/main-step-results.svg),url(../images/wave.svg);
-    background-color: $bgmain;
-    background-repeat: no-repeat;
-    background-position: 100% 80%, 50% 100%;
-    background-size: 20%, 100%;  
-  }  
 }
 
 .diagnostic-results {
@@ -480,6 +489,124 @@ form {
     font-size: 3.2rem;
   }
 }
+.page-result {
+  @media (min-width:$small) {
+    main {
+      background: url(../images/main-result.svg),url(../images/wave.svg);
+      background-color: $bgmain;
+      background-repeat: no-repeat;
+      background-position: 50% 100%, 50% 100%;
+      background-size: 50%, 100%;
+    }
+  }
+  .main-int {
+    max-width:75em;
+    min-height:100vh;
+    header {
+      padding:7rem 0 3rem;
+    }
+    h1 {
+      font-size: 4rem;
+      text-align: center;
+      color: $color-main;
+    }
+    p {
+      font-size: 1.6rem;
+      color: $color-main;
+      font-size:2rem;
+    }
+    .pbl {
+      padding:7rem 0 40rem;
+    }
+    .pdf {
+      text-align:center;
+      p {
+        display:inline-block;
+        a {
+          display:block;
+          background:$color-highlight;
+          color:$white;
+          padding:1rem 7rem 1rem 2rem;
+          text-align:left;
+          strong {
+            display:block;
+          }
+        }
+      }
+    }
+    .block-link {
+      text-align:center;
+      a {
+        position:relative;
+        overflow: hidden;
+        font-size:2rem;  
+        font-weight:900;
+        color:$color-main;
+        z-index:0;
+        &:hover,
+        &:focus {
+          text-decoration:none;
+        }
+        &:after {
+        content:'';
+        position:absolute;
+        width:100%;
+        top:80%;
+        left:50%;
+        transform:translateX(-50%);
+        height:7px;
+        background:$color-highlight; 
+        z-index:0;
+        }
+        &:hover:after,
+        &:focus:after {
+          background:$white; 
+        }
+        strong {
+          position:relative;
+          z-index:1;
+        }
+      }
+    }
+    .block-list-link {
+      ul {
+        margin:0;
+        padding:0;
+      }
+      li {
+        position: relative;
+        list-style:none;
+        padding:0 0 0 2rem;
+        &:before {
+          position: absolute;
+          content:'|';
+          color:$color-highlight;
+          font-weight:900;
+          font-size:2rem;
+          left:0;
+          top:.2rem;
+        }
+        a {
+          position:relative;
+          display: block;
+          font-weight:900;
+          color:$color-main;
+          padding:0 0 0 3rem;
+          &:before {
+            content:'⇥';
+            position:absolute;
+            font-weight:100;
+            font-size:3rem;
+            left:0;
+            top:0;
+            line-height:1;
+          }
+        }
+      }
+    }
+  }
+}
+
 
 // Progress Bar
 .progressbar {
@@ -545,30 +672,7 @@ form {
     margin: 3.5rem 0;
   }
 }
-.result {
-  main {
-    padding: 3rem 1rem;
-  }
-  h1 {
-    font-size: 4rem;
-    text-align: center;
-    color: $color-main;
-  }
-  p {
-    font-size: 1.6rem;
-    color: $color-main;
-  }
-  p + p {
-    text-align: center;
-  }
-  p a {
-    display: inline-block;
-    padding: 1rem 2rem;
-    font-weight: bold;
-    color: $white;
-    background: $color-highlight;
-  }
-}
+
 //404
 .page404 {
   main article {

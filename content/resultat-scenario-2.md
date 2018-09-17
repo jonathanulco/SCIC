@@ -2,7 +2,10 @@
 title ="Nous vous invitons à vous référer au guide ci-dessous."
 description ="Vous projetez de créer une SCIC ? suivez ce guide."
 type ="result"
+bodyclass="page-result"
 +++
-Folksonomies, ubiquitous markets feeds deliver networks synergies infrastructures disintermediate Cluetrain. Frictionless expedite infomediaries dot-com seamless, niches next-generation; web services networks front-end revolutionary reintermediate best-of-breed unleash beta-test drive podcasts harness." IntegrateAJAX-enabled synergies viral create strategize productize ROI transform authentic platforms peer-to-peer peer-to-peer, visionary target? Networking morph communities one-to-one integrateAJAX-enabled aggregate productize transparent front-end initiatives platforms models semantic.
+Nous vous invitons à prendre connaissance des enjeux et opportunités de la SCIC correspondant à votre situation :
 
-[Lien vers le pdf de X ko](/pdf/.pdf)
+{{% divmd class="block-link pbl" %}}
+[**une association**](/association/), [**une fédération**](/federation/) ou [**une collectivité**](/collectivite/).
+{{% /divmd %}}
