@@ -3,110 +3,56 @@ title: "Collectivite ?"
 description : ""
 date: 2018-06-10T16:43:39+02:00
 draft: false
-image:  "/images/lorem-image.jpg"
+image:  "/images/collectivite.jpg"
 ---
 
-**The primary theme of Sargeant’s[1] critique of dialectic
-discourse is a mythopoetical paradox. It could be said that an abundance of
-deappropriations concerning the cultural paradigm of reality may be found.**
+Les collectivités publiques sont des partenaires majeurs des acteurs sportifs. Le sport,
+compétence partagée entre les différents niveaux de collectivités locales, est en effet un
+acteur économique important et, de plus en plus reconnu comme facteur d’attractivité
+territoriale, de création d’emplois, de cohésion sociale.
 
-## Dialectic discourse and libertarianism
-Helmut E. O. Werther
+Le sport a besoin d’infrastructures et d’équipements qui s’adaptent aux évolutions de la
+demande des publics et qui se mettent à niveau notamment en matière de sécurité et de
+confort des pratiques. Hors 4 équipements sur 10 ont plus de quarante ans et les
+collectivités publiques qui en sont propriétaires à 85 % sont face à un véritable défi pour
+construire et rénover.
 
-Department of Literature, Carnegie-Mellon University
-N. Stephen Long
+Dans un contexte budgétaire contraint, au regard d’une réforme territoriale qui laisse les
+acteurs en capacité de s’auto organiser en matière de développement économique des
+pratiques sportives, le recours à l’optimisation de l’existant par la mutualisation des
+équipements notamment, l’innovation au regard des modes de financements et de gestion
+sont des perspectives à explorer.
 
-Department of Politics, Miskatonic University, Arkham, Mass.
+Des conseils régionaux intègrent le sport dans la construction du Schéma régional de
+développement économique, d’innovation et d’internationalisation (SRDEII), dans le schéma
+régional d’aménagement et de développement durable du territoire SRADDET.
 
-## 1. Gaiman and the cultural paradigm of reality
+## La SCIC, levier de développement économique territorial
 
-The primary theme of Sargeant’s[1] critique of dialectic
-discourse is a mythopoetical paradox. It could be said that an abundance of
-deappropriations concerning the cultural paradigm of reality may be found.
+Basé sur une coopération entre acteurs d’origines diversifiées, le statut de SCIC permet
+d’associer efficacité économique et objectif social, dans une optique de développement du
+territoire. La SCIC permet ainsi d’organiser une dynamique pérenne de développement local
+à travers la mise en synergie de nombreux acteurs, qui ne travaillent pas forcément
+ensemble habituellement.
 
-If one examines the textual paradigm of expression, one is faced with a
-choice: either accept dialectic discourse or conclude that government is
-capable of truth, given that language is distinct from reality. Abian[2] implies that we have to choose between the textual paradigm
-of discourse and Sartreist absurdity. Thus, the subject is contextualised into
-a dialectic discourse that includes language as a totality.
+Par sa gouvernance associant différents acteurs (usagers, salariés, collectivités..), par son
+caractère d’intérêt collectif, par son inscription dans une économie solidaire, la SCIC permet
+le développement d’activités économiques tout en préservant l’intérêt général et collectif.
 
-Bataille uses the term ‘the cultural paradigm of reality’ to denote the
-dialectic of postmodern class. In a sense, in The Books of Magic, Gaiman
-denies dialectic discourse; in Death: The High Cost of Living he affirms
-dialectic materialism.
+Participer au capital d’une SCIC, un changement de posture pour les collectivités
+Depuis la loi sur l’ESS de 2014, les collectivités territoriales ont la possibilité d’intervenir
+jusqu’à 50% au capital des SCIC. Cette entrée au capital permet d’appréhender
+différemment l’organisation et le développement économique local. Associée à la SCIC, la
+collectivité, via son élu mandaté, change de posture et est pleinement partie prenante de
+coopérations d’intérêts collectifs.
 
-Several theories concerning the role of the reader as writer exist.
-Therefore, if the cultural paradigm of reality holds, we have to choose between
-libertarianism and the prematerial paradigm of reality.
+Le RTES, réseau de collectivités territoriales pour une économie solidaire, rassemble 125
+collectivités engagées pour le développement de l’économie sociale et solidaire.
+A travers ses actions, le RTES valorise et promeut des politiques publiques de soutien à l’ESS
+et des modes de développement associant l’ensemble des acteurs, en capacité d’apporter
+des réponses aux défis économiques, sociaux et écologiques.
+Les Scic apparaissent de plus en plus comme un moyen pertinent de répondre à un besoin
+sur les territoires en associant acteurs publics et privés d’un champ d’activité ou d’une
+filière.
 
-The subject is interpolated into a cultural paradigm of reality that
-includes culture as a paradox. In a sense, libertarianism states that language
-may be used to marginalize minorities.
-
-### 1.1. Dialectic discourse and semanticist postcultural theory
-
-The main theme of the works of Gaiman is not narrative as such, but
-prenarrative. The subject is contextualised into a conceptualist discourse that
-includes truth as a whole. It could be said that Sontag promotes the use of
-libertarianism to modify narrativity.
-
-The characteristic theme of Long’s[3] essay on Derridaist
-reading is a self-falsifying totality. But a number of narratives concerning
-libertarianism may be revealed.
-
-Humphrey[4] implies that we have to choose between
-dialectic discourse and postsemantic deappropriation. However, the premise of
-semanticist postcultural theory states that reality is a product of
-communication.
-
-The primary theme of the works of Gaiman is not theory, but neotheory. But
-several constructions concerning the bridge between society and language exist.
-
-## 2. Discourses of absurdity
-
-“Class is part of the fatal flaw of culture,” says Sartre; however,
-according to Hanfkopf[5] , it is not so much class that is
-part of the fatal flaw of culture, but rather the economy, and thus the
-dialectic, of class. The subject is interpolated into a libertarianism that
-includes language as a whole. Therefore, Marx’s analysis of dialectic discourse
-holds that consciousness is capable of significance.
-
-Sontag uses the term ‘libertarianism’ to denote a cultural totality. Thus,
-semanticist postcultural theory implies that class, perhaps surprisingly, has
-significance, but only if the premise of the postcapitalist paradigm of reality
-is invalid; if that is not the case, discourse must come from the collective
-unconscious.
-
-The subject is contextualised into a dialectic discourse that includes
-reality as a paradox. In a sense, an abundance of theories concerning cultural
-neoconceptual theory may be found.
-
-1. Sargeant, V. E. V. ed. (1984)
-Contexts of Paradigm: Libertarianism and dialectic discourse. Panic
-Button Books
-
-2. Abian, T. K. (1990) Dialectic discourse and
-libertarianism. University of Georgia Press
-
-3. Long, T. K. J. ed. (1973) Subcultural Semioticisms:
-Libertarianism and dialectic discourse. University of Illinois
-Press
-
-4. Humphrey, I. Z. (1998) Libertarianism in the works of
-Rushdie. Harvard University Press
-
-5. Hanfkopf, B. ed. (1986) The Defining characteristic of
-Society: Dialectic discourse in the works of Gibson. Schlangekraft
-
-The essay you have just seen is completely meaningless and was randomly generated by the Postmodernism Generator. To generate another essay, follow this link.
-If you liked this particular essay and would like to return to it, follow this link for a bookmarkable page.
-
-The Postmodernism Generator was written by Andrew C. Bulhak using the Dada Engine, a system for generating random text from recursive grammars, and modified very slightly by Josh Larios (this version, anyway. There are others out there).
-
-This installation of the Generator has delivered 18,015,763 essays since 25/Feb/2000 18:43:09 PST, when it became operational.
-
-More detailed technical information may be found in Monash University Department of Computer Science Technical Report 96/264: “On the Simulation of Postmodernism and Mental Debility Using Recursive Transition Networks“.
-
-More generated texts are linked to from the sidebar to the right.
-
-If you enjoy this, you might also enjoy reading about the Social Text Affair, where NYU Physics Professor Alan Sokal’s brilliant(ly meaningless) hoax article was accepted by a cultural criticism publication.
+[Pour plus d’informations, consulter le site du RTES.](www.rtes.fr)

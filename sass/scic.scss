@@ -475,8 +475,8 @@ form {
   .cover-image {
     max-width: 100%;
     height: auto;
-
     object-fit: cover;
+    width:100%;
   }
   h1 {
     margin-top:6rem;
@@ -484,6 +484,8 @@ form {
   }
   h2 {
     font-size: 3.2rem;
+    padding-top:3rem;
+    margin-bottom:3rem;
   }
   header + p strong {
     font-size: 3.2rem;
