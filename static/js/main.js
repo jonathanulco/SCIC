@@ -59,7 +59,7 @@ function goToNextStep(nextStep){
     var currentStep = $form.dataset.current;
     var $currentFieldSet = $form.querySelector('.step-' + currentStep);
     var $nextFieldSet = $form.querySelector('.step-' + nextStep);
-    var oldMainClass = $currentFieldSet ? $currentFieldSet.dataset.class : null;
+    var oldMainClass = $currentFieldSet ? $currentFieldSet.dataset.class : $results.dataset.class;
     var newMainClass,
         newPageTitle;
 
