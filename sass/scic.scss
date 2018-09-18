@@ -487,7 +487,8 @@ form {
     padding-top:3rem;
     margin-bottom:3rem;
   }
-  header + p strong {
+  header + p strong,
+  header + h2 + p strong {
     font-size: 3.2rem;
   }
 }

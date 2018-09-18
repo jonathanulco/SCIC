@@ -11,10 +11,16 @@ description = "Un outil au service des associations et des collectivités pour l
   identifier = "diagnostic"
   url = "/diagnostic/"
 [[menu.main]]
+  name = "La SCIC c'est"
+  weight = 10
+  identifier = "about"
+  url = "/a-propos/"   
+[[menu.main]]
   name = "Foire aux questions"
   weight = 1
   identifier = "faq"
   url = "/faq/"
+ 
 
 
 [Params]

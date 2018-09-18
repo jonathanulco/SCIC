@@ -8,13 +8,13 @@ image:  "/images/association.jpg"
 
 ## Le sport, un champ en pleine évolution socio économique.
 
-Impacté depuis une trentaine d’années par de nombreuses réglementations externes
+**Impacté depuis une trentaine d’années par de nombreuses réglementations externes
 (rapport avec la sécurité sociale / la sécurité des pratiques / la fiscalité associative et
 désormais, l’évolution des financements publics), par des évolutions internes comme la mise
 en œuvre de la CCN du sport, les rôles et responsabilités des bénévoles,
 le monde associatif sportif a engagé , avec le soutien du Ministère des Sports une grand
 réflexion sur son modèle d’organisation et de gouvernance, afin de déterminer les
-évolutions nécessaires du modèle socio-économique du club sportif.
+évolutions nécessaires du modèle socio-économique du club sportif.**
 
 La prise en compte des attentes nombreuses des publics et une tendance récurrente dans
 l’approche consumériste de produits et services sportifs amènent peu à peu le champ

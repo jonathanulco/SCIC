@@ -6,10 +6,10 @@ draft: false
 image:  "/images/collectivite.jpg"
 ---
 
-Les collectivités publiques sont des partenaires majeurs des acteurs sportifs. Le sport,
+**Les collectivités publiques sont des partenaires majeurs des acteurs sportifs. Le sport,
 compétence partagée entre les différents niveaux de collectivités locales, est en effet un
 acteur économique important et, de plus en plus reconnu comme facteur d’attractivité
-territoriale, de création d’emplois, de cohésion sociale.
+territoriale, de création d’emplois, de cohésion sociale.**
 
 Le sport a besoin d’infrastructures et d’équipements qui s’adaptent aux évolutions de la
 demande des publics et qui se mettent à niveau notamment en matière de sécurité et de
