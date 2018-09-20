@@ -36,4 +36,6 @@ Pour une fédération sportive, Il peut dès lors s’agir de :
 
 - De clarifier la gouvernance du sport en permettant aux différents acteurs de s’associer pour développer les pratiques.
 
-Pour plus d’informations, télécharger le guide et consulter le modèle économique du sport.
+{{% divmd class="block-button" %}}
+[**Pour plus d’informations télécharger le guide et consulter le modèle économique du sport.** **Guide SCIC**](/pdf/.pdf)
+{{% /divmd %}}

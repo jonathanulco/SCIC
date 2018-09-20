@@ -40,5 +40,6 @@ Si le changement est annoncé il reste dès lors à en préciser les stratégies
     - De mixer les réponses d’intérêt général et celle répondant aux intérêts particuliers en innovant sur les modes d’accompagnement des publics (mixité sociale / loisirs sportifs / sport santé à visée préventive…)
 
     - D’adopter une démarche de méthodologie de projet visant la formalisation d’une véritable stratégie de développement en vue d’une action ancrée sur son territoire pour en favoriser la pérennité.
-
-[Pour plus d’informations, télécharger le guide et consulter le modèle économique du sport](/pdf/guide.pdf)
+{{% divmd class="block-button" %}}
+[**Pour plus d’informations, télécharger le guide consulter le modèle économique du sport** **Guide du modèle économique du sport**](/pdf/guide.pdf)
+{{% /divmd %}}

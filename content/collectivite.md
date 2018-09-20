@@ -54,5 +54,6 @@ des réponses aux défis économiques, sociaux et écologiques.
 Les Scic apparaissent de plus en plus comme un moyen pertinent de répondre à un besoin
 sur les territoires en associant acteurs publics et privés d’un champ d’activité ou d’une
 filière.
-
-[Pour plus d’informations, consulter le site du RTES.](www.rtes.fr)
+{{% divmd class="block-button" %}}
+[**Pour plus d’informations, consulter le site du RTES.** **www.rtes.fr**](www.rtes.fr)
+{{% /divmd %}}
