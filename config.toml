@@ -5,6 +5,9 @@ title = "Scic"
 theme = "scic"
 description = "Un outil au service des associations et des collectivités pour le développement de l'emploi durable"
 
+[extra]
+live_base_url = "https://scic.sports.gouv.fr"
+
 [[menu.main]]
   name = "Diagnostic"
   weight = 1
