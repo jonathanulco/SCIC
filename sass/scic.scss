@@ -570,6 +570,33 @@ article .block-button {
       }
     }
   }
+  &.tools main {
+    background-color:$bgmain;
+    @media (min-width:$small) {
+      & {
+        background-image:url(../images/hula-hoop.svg),url(../images/wave-pink.svg) ;
+        background-repeat:no-repeat;
+        background-position:95% 80%,50% 100%;
+        background-size: 18%, 100%;
+      }
+    }
+
+    ul{
+      list-style: none;
+      margin-left: 0rem;
+
+      a:before{
+        content: '';
+        height: 1em;
+        width: 1.5em;
+        background: url(../images/arrow-dl.svg) 50% 50% no-repeat;
+        background-size: contain;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 0.7em; 
+      }
+    }
+  }
 }
 .page-result {
   @media (min-width:$small) {
