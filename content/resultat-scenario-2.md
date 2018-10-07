@@ -1,5 +1,5 @@
 +++
-title ="Nous vous invitons à vous référer au guide ci-dessous."
+title ="Votre démarche stratégique de changement reste à préciser"
 description ="Vous projetez de créer une SCIC ? suivez ce guide."
 type ="result"
 bodyclass="page-result"

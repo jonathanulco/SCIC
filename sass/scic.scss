@@ -27,6 +27,10 @@ body {
   'Open Sans',
   'Helvetica Neue',
   sans-serif; /* font stack from Medium */
+
+  &.page-center{
+    text-align: center;
+  }
 }
 @media (min-width:$small) {
   @font-face {
@@ -164,6 +168,9 @@ footer {
   .logo {
     font-size: 2.5rem;
   }
+  .logo-mds{ 
+    margin-right: 1rem;
+  }
   .baseline {
     margin:0;
     line-height: 1.1;
@@ -289,11 +296,11 @@ main {
   main {
     margin: 10vh 0 0;
     padding-bottom: 30rem;
-    background: url(../images/coureurs.svg),url(../images/interrogation.svg),url(../images/wave.svg);
+    background: url(../images/coureurs.svg),url(../images/bg-text.svg), url(../images/interrogation.svg), url(../images/wave.svg);
     background-color: $bgmain;
     background-repeat: no-repeat;
-    background-position: 0 100%,50% 30%, 50% 100%;
-    background-size: 30%, 20%, 100%;
+    background-position:  -3% 67%, 50% 50%, 50% 30%,50% 100%;
+    background-size: 30%, 66%, 20%, 100%;
     header {
       display: flex;
       flex-direction: column;
@@ -338,14 +345,14 @@ main {
       background: url(../images/main-step-2.svg),url(../images/wave.svg);
       background-color: $bgmain;
       background-repeat: no-repeat;
-      background-position: 100% 80%, 50% 100%;
+      background-position: 100% 92%, 50% 100%;
       background-size: 20%, 100%;
     }
     &.main-step-3 {
       background: url(../images/main-step-3.svg),url(../images/wave.svg);
       background-color: $bgmain;
       background-repeat: no-repeat;
-      background-position: 97% 98%, 50% 100%;
+      background-position: 3% 98%, 50% 100%;
       background-size: 28%, 100%;
     }
     &.main-step-results {
@@ -410,6 +417,7 @@ form {
         text-transform: uppercase;
         color: $white;
         background: $color-highlight;
+        font-weight: 600;
       }
       span:last-of-type {
         font-size: 2.7rem;
@@ -448,6 +456,7 @@ form {
       }
       &:after {
         content: '>';
+        margin-left: 6px;  
         font-family: monospace;
         font-weight: 900;
       }
@@ -458,9 +467,54 @@ form {
   }
 }
 // Article
+article .block-button {
+  color:$color-highlight;
+  border-left:3px solid $color-highlight;
+  a {
+    display:block;
+    color:$color-highlight;
+  }
+
+
+  strong {    
+    padding:1rem 1rem 1rem 3rem;
+    display: block;
+
+    &:first-child{
+      font-size: 1.6rem;
+    }
+ 
+    &:last-child {
+      color:$white;
+      padding:1rem 1rem 1rem 7rem;
+      background:$color-highlight;
+      position: relative;
+      &:before {
+        content: '';
+        position: absolute;
+        top:50%;
+        transform:translateY(-50%);
+        left:25px;
+        background: url(../images/arrow.svg) 50% 50% no-repeat;
+        font-size:5rem;
+        font-weight:100;
+        line-height:1;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }     
+
+  @media (min-width:$small) {
+    & {
+      max-width:25vw;
+    } 
+  }   
+}
+
 .article {
-  main {
-    padding-bottom: 30rem;
+  main { 
+    padding-bottom: 33rem;
     color: $color-main;
     background-color:$white;
     @media (min-width:$small) {
@@ -503,48 +557,13 @@ form {
       li {
         margin:3rem 0;
       }
-    }
-    .block-button {
-      color:$color-highlight;
-      border-left:3px solid $color-highlight;
-      a {
-        display:block;
-        color:$color-highlight;
-      }
-      strong {
-        display:block;
-        padding:1rem 1rem 1rem 3rem;
-        & + strong {
-          color:$white;
-          padding:1rem 1rem 1rem 7rem;
-          background:$color-highlight;
-          position: relative;
-          &:before {
-            position: absolute;
-            top:50%;
-            transform:translateY(-50%);
-            left:25px;
-            content:'⬈';
-            font-size:5rem;
-            font-weight:100;
-            line-height:1;
-          }
-        }
-      }     
-
-      @media (min-width:$small) {
-        & {
-          max-width:25vw;
-        } 
-      }
-       
-    }
+    }  
   }
   &.about main {
     background-color:$white;
     @media (min-width:$small) {
       & {
-        background-image:url(../images/about.svg),url(../images/wave-pink.svg) ;
+        background-image:url(../images/about.svg),url(../images/wave-orange.svg) ;
         background-repeat:no-repeat;
         background-position:100% 96%,50% 100%;
         background-size:33%, 100%;
@@ -563,7 +582,7 @@ form {
     }
   }
   .main-int {
-    max-width:75em;
+    max-width:90em;
     min-height:100vh;
     header {
       padding:7rem 0 3rem;
@@ -587,12 +606,16 @@ form {
         display:inline-block;
         a {
           display:block;
-          background:$color-highlight;
           color:$white;
+          font-size: 1.6rem;
           padding:1rem 7rem 1rem 2rem;
           text-align:left;
+          text-transform: uppercase;
+          background: $color-highlight url(../images/pdf.svg) 90% 50% no-repeat;
+          background-size: 4rem; 
           strong {
             display:block;
+            text-align: center;
           }
         }
       }
@@ -669,7 +692,6 @@ form {
     }
   }
 }
-
 
 // Progress Bar
 .progressbar {
