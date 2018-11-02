@@ -7,7 +7,7 @@ bodyclass="page-result page-center"
 Nous vous invitons à approfondir votre projet au travers du support de Société Coopérative d'Intérêt Collectif (SCIC)
 
 Afin de définir plus précisément le cadre organisationnel,
-la stratégie de développement et la conduite du changement nécessaire pour répondre à ces ambitions.
+la stratégie de développement et la conduite du changement nécessaire pour répondre à ces ambitions : 
 
 {{% divmd class="pdf pbl" %}}
 [**Téléchargez** **le guide**](/pdf/guide-scic.pdf)

@@ -10,7 +10,7 @@ image:  "/images/federation.jpg"
 et/ou économiques, en créant du partenariat, en développant de l’intérêt collectif tout en
 gardant ses valeurs d’utilité sociale.**
 
-Le sport, ou plutôt les pratiques physiques et sportives, sont devenu un phénomène de
+Le sport, ou plutôt les pratiques physiques et sportives, sont devenus un phénomène de
 société. Dépassant les frontières historiques du sport de compétition géré par les
 fédérations sportives dans un partenariat étroit avec l’Etat, on le retrouve désormais pris en
 compte dans de nombreux secteurs d’activités tels la santé, le tourisme, l’animation

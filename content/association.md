@@ -16,7 +16,7 @@ le monde associatif sportif a engagé , avec le soutien du Ministère des Sports
 réflexion sur son modèle d’organisation et de gouvernance, afin de déterminer les
 évolutions nécessaires du modèle socio-économique du club sportif.**
 
-La prise en compte des attentes nombreuses des publics et une tendance récurrente dans
+La prise en compte des nombreuses attentes des publics et une tendance récurrente dans
 l’approche consumériste de produits et services sportifs amènent peu à peu le champ
 associatif sportif à intégrer la sphère marchande.
 
