@@ -1,5 +1,5 @@
 ---
-title: "Vous êtes une collectivité territoriale"
+title: "Vous êtes une collectivité publique"
 description : ""
 date: 2018-06-10T16:43:39+02:00
 draft: false

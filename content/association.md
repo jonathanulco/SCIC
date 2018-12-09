@@ -12,7 +12,7 @@ image:  "/images/association.jpg"
 (rapport avec la sécurité sociale / la sécurité des pratiques / la fiscalité associative et
 désormais, l’évolution des financements publics), par des évolutions internes comme la mise
 en œuvre de la CCN du sport, les rôles et responsabilités des bénévoles,
-le monde associatif sportif a engagé , avec le soutien du Ministère des Sports une grand
+le monde associatif sportif a engagé , avec le soutien du Ministère des Sports une grande
 réflexion sur son modèle d’organisation et de gouvernance, afin de déterminer les
 évolutions nécessaires du modèle socio-économique du club sportif.**
 

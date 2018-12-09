@@ -110,6 +110,12 @@ body {
 .js-to_expand[aria-hidden=true], .js-to_expand[data-hidden=true] {
   display: none;
 }
+.txtcenter {
+  text-align:center;
+}
+.mts {
+  margin-top:5rem;
+}
 // footer
 footer {
   margin-top: auto;
@@ -305,7 +311,7 @@ main {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      min-height: 50vh;
+      min-height: 40vh; 
       text-align: center;
       h1 {
         line-height: 1.1;
@@ -613,6 +619,10 @@ article .block-button {
     min-height:100vh;
     header {
       padding:7rem 0 3rem;
+      + p strong {
+        display:block; 
+        text-align:center;
+      }   
     }
     h1 {
       font-size: 4rem;
@@ -649,6 +659,12 @@ article .block-button {
     }
     .block-link {
       text-align:center;
+      p {
+        display:flex;
+        width:100%;
+        justify-content:space-around;
+      }
+      
       a {
         position:relative;
         overflow: hidden;

@@ -6,9 +6,7 @@ draft: false
 image:  "/images/federation.jpg"
 ---
 
-**Le SPORT, un secteur qui a besoin de collaborer avec d’autres acteurs, d’intérêt général
-et/ou économiques, en créant du partenariat, en développant de l’intérêt collectif tout en
-gardant ses valeurs d’utilité sociale.**
+**Le SPORT, un secteur qui a besoin de collaborer avec d’autres acteurs économiques et/ou d’intérêt général en créant du partenariat, en développant de l’intérêt collectif tout en gardant ses valeurs d’utilité sociale.**
 
 Le sport, ou plutôt les pratiques physiques et sportives, sont devenus un phénomène de
 société. Dépassant les frontières historiques du sport de compétition géré par les

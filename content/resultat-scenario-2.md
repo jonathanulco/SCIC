@@ -6,6 +6,10 @@ bodyclass="page-result"
 +++
 Nous vous invitons à prendre connaissance des enjeux et opportunités de la SCIC correspondant à votre situation :
 
+{{% divmd class="txtcenter mts" %}}
+Vous êtes :
+{{% /divmd %}}
+
 {{% divmd class="block-link pbl" %}}
-[**une association**](/association/), [**une fédération**](/federation/) ou [**une collectivité**](/collectivite/).
+[**une association**](/association/) [**une fédération**](/federation/) [**une collectivité**](/collectivite/).
 {{% /divmd %}}

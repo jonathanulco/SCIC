@@ -8,7 +8,7 @@ bodyclass="page-result"
 
 {{% divmd class="block-list-link pbl" %}}
 - Pour en savoir plus sur l’articulation entre le champ du sport et celui de l’économie sociale et solidaire
-[Consultez le guide « sport et Economie Sociale et Solidaire & Sport »](http://www.sports.gouv.fr/organisation/publication-chiffres-cles/Toutes-les-publications-10217/article/auto-entrepreneursport)
+[Consultez le guide « Economie Sociale et Solidaire & Sport »](http://www.sports.gouv.fr/organisation/publication-chiffres-cles/Toutes-les-publications-10217/article/auto-entrepreneursport)
 
 - Pour poursuivre votre réflexion sur le développement d’activités 
 [Consultez les dossiers CRDLA Sport](http://crdla-sport.franceolympique.com/art.php?id=71395)
@@ -24,7 +24,7 @@ s’engager ensemble dans la création d’une entreprise : le modèle d’organ
 [Contactez l’URSCOP de votre région](http://www.les-scop.coop/sites/fr/le-reseau/coordonnees-unions-regionales.html)
 
 {{% divmd class="block-button" %}}
-[**Pour plus d’informations, télécharger le guide consulter le modèle économique du sport** **Guide du modèle économique du sport**](/pdf/guide-scic.pdf)
+[**Pour en savoir plus sur le SCIC** **Guide du modèle économique du sport (PDF 1Mo)**](/pdf/guide-scic.pdf)
 {{% /divmd %}}
 
 
