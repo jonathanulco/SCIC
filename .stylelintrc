@@ -1,0 +1,32 @@
+{
+  "plugins": ["stylelint-a11y"],
+  "rules": {
+    "number-leading-zero": null,
+    "property-no-unknown": [ true, {
+      "ignoreProperties": [
+        "composes"
+      ]
+    }],
+    "at-rule-name-case": "lower",
+    "at-rule-name-space-after": "always-single-line",
+    "at-rule-semicolon-newline-after": "always",
+    "color-hex-length": "short",
+    "color-no-invalid-hex": true,
+    "block-closing-brace-empty-line-before": "never",
+    "block-closing-brace-newline-after": "always-multi-line",
+    "block-closing-brace-space-before": "always-single-line",
+    "block-no-empty": true,
+    "block-opening-brace-newline-after": "always-multi-line",
+    "block-opening-brace-space-after": "always-single-line",
+    "block-opening-brace-space-before": "always",
+    "declaration-block-semicolon-newline-after": null,
+    "declaration-block-semicolon-space-after": null,
+    "declaration-block-semicolon-space-before": null,
+    "declaration-block-trailing-semicolon": null,
+    "a11y/no-outline-none": true,
+    "a11y/font-size-is-readable": [true, { "severity": "warning" }],
+    "a11y/no-spread-text": [true, { "severity": "warning" }],
+    "a11y/no-obsolete-attribute": [true, { "severity": "warning" }],
+    "a11y/no-text-align-justify": [true, { "severity": "warning" }]
+  }
+}
