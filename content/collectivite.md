@@ -3,7 +3,7 @@ title: "Vous êtes une collectivité publique"
 description : ""
 date: 2018-06-10T16:43:39+02:00
 draft: false
-image:  "/images/collectivite.jpg"
+image:  "/assets/images/collectivite.jpg"
 ---
 
 **Les collectivités publiques sont des partenaires majeurs des acteurs sportifs. Le sport,
@@ -20,5 +20,5 @@ territoire. La SCIC permet ainsi d’organiser une dynamique pérenne de dévelo
 ensemble habituellement.
 
 {{% divmd class="block-button" %}}
-[**Pour plus d’informations, téléchargez le guide et consultez la page « Vous êtes une collectivité publique »** **Guide SCIC et Sport**](/pdf/guide-scic.pdf)
+[**Pour plus d’informations, téléchargez le guide et consultez la page « Vous êtes une collectivité publique »** **Guide SCIC et Sport**](/assets/pdf/guide-scic.pdf)
 {{% /divmd %}}

@@ -3,7 +3,7 @@ title: "Vous êtes une association sportive"
 description : ""
 date: 2018-06-10T16:43:39+02:00
 draft: false
-image:  "/images/association.jpg"
+image:  "/assets/images/association.jpg"
 ---
 
 ## Le sport, un champ en pleine évolution socio économique.
@@ -27,5 +27,5 @@ et sécuriser l’engagement des bénévoles dirigeants.
 
 Si le changement est annoncé il reste dès lors à en préciser les stratégies.
 {{% divmd class="block-button" %}}
-[**Pour plus d’informations, téléchargez le guide et consultez la page « Vous êtes une association ou un porteur de projet »** **Guide SCIC et Sport**](/pdf/guide-scic.pdf)
+[**Pour plus d’informations, téléchargez le guide et consultez la page « Vous êtes une association ou un porteur de projet »** **Guide SCIC et Sport**](/assets/pdf/guide-scic.pdf)
 {{% /divmd %}}

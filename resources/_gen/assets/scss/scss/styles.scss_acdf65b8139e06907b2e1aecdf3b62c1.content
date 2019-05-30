@@ -286,16 +286,20 @@ body {
 @media (min-width: 76.7em) {
   @font-face {
     font-family: 'Lato';
-    src: url("/font/Lato-Regular.woff2") format("woff2"); }
+    font-display: 'optional';
+    src: url("/assets/font/Lato-Regular.woff2") format("woff2"); }
   @font-face {
     font-family: 'Lato Black';
-    src: url("/font/Lato-Black.woff2") format("woff2"); }
+    font-display: 'optional';
+    src: url("/assets/font/Lato-Black.woff2") format("woff2"); }
   @font-face {
     font-family: 'Lato Bold';
-    src: url("/font/Lato-Bold.woff2") format("woff2"); }
+    font-display: 'optional';
+    src: url("/assets/font/Lato-Bold.woff2") format("woff2"); }
   @font-face {
     font-family: 'Lato Light';
-    src: url("/font/Lato-Light.woff2") format("woff2"); }
+    font-display: 'optional';
+    src: url("/assets/font/Lato-Light.woff2") format("woff2"); }
   body {
     font-family: 'Lato'; }
   h1 {
@@ -400,9 +404,14 @@ footer {
   .banner .logo {
     font-size: 2.5rem; }
   .banner .logo-mds {
-    margin-right: 1rem; }
+    margin-right: 1rem;
+    position: relative; }
     .banner .logo-mds img {
-      margin-right: 1rem; }
+      margin-right: 1rem;
+      position: absolute;
+      bottom: 100%;
+      right: 100%;
+      transform: translateY(80%); }
   .banner .baseline {
     margin: 0;
     line-height: 1.1;
@@ -492,7 +501,7 @@ footer {
 
 main {
   position: relative;
-  background: #aed2dd url(../images/wave.svg) no-repeat 50% 100%;
+  background: #aed2dd url(/assets/images/wave.svg) no-repeat 50% 100%;
   background-size: 100%; }
   main .main-int {
     margin: 0 auto;
@@ -502,7 +511,7 @@ main {
 .home main {
   margin: 10vh 0 0;
   padding-bottom: 30rem;
-  background: url(../images/coureurs.svg), url(../images/bg-text.svg), url(../images/interrogation.svg), url(../images/wave.svg);
+  background: url(/assets/images/coureurs.svg), url(/assets/images/bg-text.svg), url(/assets/images/interrogation.svg), url(/assets/images/wave.svg);
   background-color: #aed2dd;
   background-repeat: no-repeat;
   background-position: -3% 67%, 50% 50%, 50% 30%,50% 100%;
@@ -533,25 +542,25 @@ main {
 
 @media (min-width: 76.7em) {
   .form-step main {
-    background: url(../images/main-step-1.svg), url(../images/wave.svg);
+    background: url(/assets/images/main-step-1.svg), url(/assets/images/wave.svg);
     background-color: #aed2dd;
     background-repeat: no-repeat;
     background-position: 100% 90%, 50% 100%;
     background-size: 31%, 100%; }
     .form-step main.main-step-2 {
-      background: url(../images/main-step-2.svg), url(../images/wave.svg);
+      background: url(/assets/images/main-step-2.svg), url(/assets/images/wave.svg);
       background-color: #aed2dd;
       background-repeat: no-repeat;
       background-position: 100% 92%, 50% 100%;
       background-size: 20%, 100%; }
     .form-step main.main-step-3 {
-      background: url(../images/main-step-3.svg), url(../images/wave.svg);
+      background: url(/assets/images/main-step-3.svg), url(/assets/images/wave.svg);
       background-color: #aed2dd;
       background-repeat: no-repeat;
       background-position: 3% 98%, 50% 100%;
       background-size: 28%, 100%; }
     .form-step main.main-step-results {
-      background: url(../images/main-step-4.svg), url(../images/wave.svg);
+      background: url(/assets/images/main-step-4.svg), url(/assets/images/wave.svg);
       background-color: #aed2dd;
       background-repeat: no-repeat;
       background-position: 0 80%, 50% 100%;
@@ -670,7 +679,7 @@ article .block-button {
         font-size: 5rem;
         font-weight: 100;
         transform: translateY(-50%);
-        background: url(../images/arrow.svg) 50% 50% no-repeat; }
+        background: url(/assets/images/arrow.svg) 50% 50% no-repeat; }
   @media (min-width: 76.7em) {
     article .block-button {
       max-width: 25vw; } }
@@ -681,7 +690,7 @@ article .block-button {
   background-color: #fefefe; }
   @media (min-width: 76.7em) {
     .article main {
-      background-image: url(../images/article.svg), url(../images/wave-purple.svg);
+      background-image: url(/assets/images/article.svg), url(/assets/images/wave-purple.svg);
       background-repeat: no-repeat;
       background-position: 100% 96%,50% 100%;
       background-size: 43%, 100%; } }
@@ -718,7 +727,7 @@ article .block-button {
   background-color: #fefefe; }
   @media (min-width: 76.7em) {
     .article.about main {
-      background-image: url(../images/about.svg), url(../images/wave-orange.svg);
+      background-image: url(/assets/images/about.svg), url(/assets/images/wave-orange.svg);
       background-repeat: no-repeat;
       background-position: 100% 96%,50% 100%;
       background-size: 33%, 100%; } }
@@ -727,7 +736,7 @@ article .block-button {
   background-color: #aed2dd; }
   @media (min-width: 76.7em) {
     .article.tools main {
-      background-image: url(../images/hula-hoop.svg), url(../images/wave-pink.svg);
+      background-image: url(/assets/images/hula-hoop.svg), url(/assets/images/wave-pink.svg);
       background-repeat: no-repeat;
       background-position: 95% 80%,50% 100%;
       background-size: 18%, 100%; } }
@@ -741,12 +750,12 @@ article .block-button {
       width: 1.5em;
       height: 1em;
       vertical-align: middle;
-      background: url(../images/arrow-dl.svg) 50% 50% no-repeat;
+      background: url(/assets/images/arrow-dl.svg) 50% 50% no-repeat;
       background-size: contain; }
 
 @media (min-width: 76.7em) {
   .page-result main {
-    background: url(../images/main-result.svg), url(../images/wave.svg);
+    background: url(/assets/images/main-result.svg), url(/assets/images/wave.svg);
     background-color: #aed2dd;
     background-repeat: no-repeat;
     background-position: 100% 100%, 50% 100%;
@@ -781,7 +790,7 @@ article .block-button {
         text-align: left;
         text-transform: uppercase;
         color: #fefefe;
-        background: #ee6e36 url(../images/pdf.svg) 90% 50% no-repeat;
+        background: #ee6e36 url(/assets/images/pdf.svg) 90% 50% no-repeat;
         background-size: 4rem; }
         .page-result .main-int .pdf p a strong {
           display: block;
@@ -891,7 +900,7 @@ article .block-button {
     content: '';
     width: 50px;
     height: 50px;
-    background: #272f80 url(../images/last-step.svg) no-repeat 50% 50%;
+    background: #272f80 url(/assets/images/last-step.svg) no-repeat 50% 50%;
     background-size: 60%; }
   .progressbar li:nth-of-type(4):after {
     top: 23px; }
@@ -983,7 +992,7 @@ article .block-button {
   width: 30px;
   height: 30px;
   border-radius: 100%;
-  background: url(../images/tennis-orange-balls.svg) no-repeat 50% 50%; }
+  background: url(/assets/images/tennis-orange-balls.svg) no-repeat 50% 50%; }
 
 .circle:nth-of-type(2) {
   transform: rotate(-30deg); }
@@ -1001,7 +1010,7 @@ article .block-button {
   transform: rotate(270deg); }
 
 [data-nb-yes='0'] .circle:nth-child(n+1), [data-nb-yes='1'] .circle:nth-child(n+2), [data-nb-yes='2'] .circle:nth-child(n+3), [data-nb-yes='3'] .circle:nth-child(n+4), [data-nb-yes='4'] .circle:nth-child(n+5) {
-  background: url(../images/tennis-white-balls.svg) no-repeat 50% 50%; }
+  background: url(/assets/images/tennis-white-balls.svg) no-repeat 50% 50%; }
 
 .container-links-scenario a {
   display: none; }

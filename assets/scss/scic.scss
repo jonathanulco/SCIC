@@ -35,23 +35,23 @@ body {
 @media (min-width:$small) {
   @font-face {
     font-family: 'Lato';
-
-    src: url('/font/Lato-Regular.woff2') format('woff2');
+    font-display: 'optional';
+    src: url('/assets/font/Lato-Regular.woff2') format('woff2');
   }
   @font-face {
     font-family: 'Lato Black';
-
-    src: url('/font/Lato-Black.woff2') format('woff2');
+    font-display: 'optional';
+    src: url('/assets/font/Lato-Black.woff2') format('woff2');
   }
   @font-face {
     font-family: 'Lato Bold';
-
-    src: url('/font/Lato-Bold.woff2') format('woff2');
+    font-display: 'optional';
+    src: url('/assets/font/Lato-Bold.woff2') format('woff2');
   }
   @font-face {
     font-family: 'Lato Light';
-
-    src: url('/font/Lato-Light.woff2') format('woff2');
+    font-display: 'optional';
+    src: url('/assets/font/Lato-Light.woff2') format('woff2');
   }
   body {
     font-family: 'Lato';
@@ -177,8 +177,13 @@ footer {
   }
   .logo-mds {
     margin-right: 1rem;
+    position:relative;
     img {
       margin-right: 1rem;
+      position: absolute;
+      bottom:100%;
+      right:100%;
+      transform:translateY(80%);
     }
   }
   .baseline {
@@ -293,7 +298,7 @@ footer {
 // Main
 main {
   position: relative;
-  background: $bgmain url(../images/wave.svg) no-repeat 50% 100%;
+  background: $bgmain url(/assets/images/wave.svg) no-repeat 50% 100%;
   background-size: 100%;
   .main-int {
     margin: 0 auto;
@@ -306,7 +311,7 @@ main {
   main {
     margin: 10vh 0 0;
     padding-bottom: 30rem;
-    background: url(../images/coureurs.svg),url(../images/bg-text.svg), url(../images/interrogation.svg), url(../images/wave.svg);
+    background: url(/assets/images/coureurs.svg),url(/assets/images/bg-text.svg), url(/assets/images/interrogation.svg), url(/assets/images/wave.svg);
     background-color: $bgmain;
     background-repeat: no-repeat;
     background-position: -3% 67%, 50% 50%, 50% 30%,50% 100%;
@@ -345,27 +350,27 @@ main {
 // Résultats
 @media (min-width:$small) {
   .form-step main {
-    background: url(../images/main-step-1.svg),url(../images/wave.svg);
+    background: url(/assets/images/main-step-1.svg),url(/assets/images/wave.svg);
     background-color: $bgmain;
     background-repeat: no-repeat;
     background-position: 100% 90%, 50% 100%;
     background-size: 31%, 100%;
     &.main-step-2 {
-      background: url(../images/main-step-2.svg),url(../images/wave.svg);
+      background: url(/assets/images/main-step-2.svg),url(/assets/images/wave.svg);
       background-color: $bgmain;
       background-repeat: no-repeat;
       background-position: 100% 92%, 50% 100%;
       background-size: 20%, 100%;
     }
     &.main-step-3 {
-      background: url(../images/main-step-3.svg),url(../images/wave.svg);
+      background: url(/assets/images/main-step-3.svg),url(/assets/images/wave.svg);
       background-color: $bgmain;
       background-repeat: no-repeat;
       background-position: 3% 98%, 50% 100%;
       background-size: 28%, 100%;
     }
     &.main-step-results {
-      background: url(../images/main-step-4.svg),url(../images/wave.svg);
+      background: url(/assets/images/main-step-4.svg),url(/assets/images/wave.svg);
       background-color: $bgmain;
       background-repeat: no-repeat;
       background-position: 0 80%, 50% 100%;
@@ -507,7 +512,7 @@ article .block-button {
         font-size: 5rem;
         font-weight: 100;
         transform: translateY(-50%);
-        background: url(../images/arrow.svg) 50% 50% no-repeat;
+        background: url(/assets/images/arrow.svg) 50% 50% no-repeat;
       }
     }
   }
@@ -526,7 +531,7 @@ article .block-button {
     background-color: $white;
     @media (min-width:$small) {
       & {
-        background-image: url(../images/article.svg),url(../images/wave-purple.svg) ;
+        background-image: url(/assets/images/article.svg),url(/assets/images/wave-purple.svg) ;
         background-repeat: no-repeat;
         background-position: 100% 96%,50% 100%;
         background-size: 43%, 100%;
@@ -572,7 +577,7 @@ article .block-button {
     background-color: $white;
     @media (min-width:$small) {
       & {
-        background-image: url(../images/about.svg),url(../images/wave-orange.svg) ;
+        background-image: url(/assets/images/about.svg),url(/assets/images/wave-orange.svg) ;
         background-repeat: no-repeat;
         background-position: 100% 96%,50% 100%;
         background-size: 33%, 100%;
@@ -583,7 +588,7 @@ article .block-button {
     background-color: $bgmain;
     @media (min-width:$small) {
       & {
-        background-image: url(../images/hula-hoop.svg),url(../images/wave-pink.svg) ;
+        background-image: url(/assets/images/hula-hoop.svg),url(/assets/images/wave-pink.svg) ;
         background-repeat: no-repeat;
         background-position: 95% 80%,50% 100%;
         background-size: 18%, 100%;
@@ -601,7 +606,7 @@ article .block-button {
         width: 1.5em;
         height: 1em;
         vertical-align: middle;
-        background: url(../images/arrow-dl.svg) 50% 50% no-repeat;
+        background: url(/assets/images/arrow-dl.svg) 50% 50% no-repeat;
         background-size: contain;
       }
     }
@@ -610,7 +615,7 @@ article .block-button {
 .page-result {
   @media (min-width:$small) {
     main {
-      background: url(../images/main-result.svg),url(../images/wave.svg);
+      background: url(/assets/images/main-result.svg),url(/assets/images/wave.svg);
       background-color: $bgmain;
       background-repeat: no-repeat;
       background-position: 100% 100%, 50% 100%;
@@ -651,7 +656,7 @@ article .block-button {
           text-align: left;
           text-transform: uppercase;
           color: $white;
-          background: $color-highlight url(../images/pdf.svg) 90% 50% no-repeat;
+          background: $color-highlight url(/assets/images/pdf.svg) 90% 50% no-repeat;
           background-size: 4rem;
           strong {
             display: block;
@@ -787,7 +792,7 @@ article .block-button {
     content: '';
     width: 50px;
     height: 50px;
-    background: $color-main url(../images/last-step.svg) no-repeat 50% 50%;
+    background: $color-main url(/assets/images/last-step.svg) no-repeat 50% 50%;
     background-size: 60%;
   }
   li:nth-of-type(4):after {
@@ -901,7 +906,7 @@ article .block-button {
   width: 30px;
   height: 30px;
   border-radius: 100%;
-  background: url(../images/tennis-orange-balls.svg) no-repeat 50% 50%;
+  background: url(/assets/images/tennis-orange-balls.svg) no-repeat 50% 50%;
 }
 .circle:nth-of-type(2) {
   transform: rotate(-30deg);
@@ -920,7 +925,7 @@ article .block-button {
 }
 
 [data-nb-yes='0'] .circle:nth-child(n+1), [data-nb-yes='1'] .circle:nth-child(n+2), [data-nb-yes='2'] .circle:nth-child(n+3), [data-nb-yes='3'] .circle:nth-child(n+4), [data-nb-yes='4'] .circle:nth-child(n+5) {
-  background: url(../images/tennis-white-balls.svg) no-repeat 50% 50%;
+  background: url(/assets/images/tennis-white-balls.svg) no-repeat 50% 50%;
 }
 
 

@@ -3,7 +3,7 @@ title: "Vous êtes une fédération sportive"
 description : ""
 date: 2018-06-10T16:43:39+02:00
 draft: false
-image:  "/images/federation.jpg"
+image:  "/assets/images/federation.jpg"
 ---
 
 **Le SPORT, un secteur qui a besoin de collaborer avec d’autres acteurs économiques et/ou d’intérêt général en créant du partenariat, en développant de l’intérêt collectif tout en gardant ses valeurs d’utilité sociale.**
@@ -19,5 +19,5 @@ Sa mise en oeuvre obéit à des modalités bien différentes, intégrant des cul
 qu’il faut savoir appréhender pour être efficient.
 
 {{% divmd class="block-button" %}} 
-[**Pour plus d’informations, téléchargez le guide et consultez la page « Vous êtes une fédération sportive »** **Guide SCIC et Sport**](/pdf/guide-scic.pdf)
+[**Pour plus d’informations, téléchargez le guide et consultez la page « Vous êtes une fédération sportive »** **Guide SCIC et Sport**](/assets/pdf/guide-scic.pdf)
 {{% /divmd %}}

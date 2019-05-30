@@ -9,5 +9,5 @@ Afin de définir plus précisément le cadre organisationnel,
 la stratégie de développement et la conduite du changement nécessaire pour répondre à ces ambitions : 
 
 {{% divmd class="pdf pbl" %}}
-[**Téléchargez** **le guide**](/pdf/guide-scic.pdf)
+[**Téléchargez** **le guide**](/assets/pdf/guide-scic.pdf)
 {{% /divmd %}}
