@@ -8,7 +8,7 @@ description = ""
 homepage = "http://scic.sport.gouv.fr/"
 tags = []
 features = []
-min_version = "0.40.3"
+min_version = "0.55.6"
 
 [author]
   name = "jonathanulco"

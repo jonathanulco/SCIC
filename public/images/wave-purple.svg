@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="392.5332"
+   width="1275"
+   id="svg16"
+   version="1.1"
+   viewBox="0 0 1275 392.5332">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Fichier 1</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:none;}.cls-2{fill:#593267;}</style>
+  </defs>
+  <title
+     id="title6">Fichier 1</title>
+  <g
+     transform="translate(-3,-403.4668)"
+     data-name="Calque 2"
+     id="Calque_2">
+    <g
+       data-name="Calque 1"
+       id="Calque_1-2">
+      <path
+         style="fill:none"
+         id="path8"
+         d="m 1281,477 c 0,0.29 -0.69,0.57 -1,0.85 V 881 h 1 z"
+         class="cls-1" />
+      <polygon
+         style="fill:#593267"
+         id="polygon10"
+         points="1280,888 1280,881 1,881 1,398.23 1,0 0,0 0,888 "
+         class="cls-2" />
+      <path
+         id="path12"
+         d="M 3,796 H 1278 V 482.35352 C 1164.0403,586.052 1025.7099,664.65067 875.41728,700.80984 720.42366,738.66387 554.64683,730.2102 404.16635,677.2688 249.26843,623.44276 111.98069,525.17766 3,403.4668 Z"
+         style="fill:#593267" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://scic.org/mentions-legales/</loc>
+    <lastmod>2018-06-10T16:43:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scic.org/outils-et-ressources/</loc>
+    <lastmod>2018-06-10T16:43:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scic.org/</loc>
+    <lastmod>2018-06-10T16:43:39+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scic.org/a-propos/</loc>
+    <lastmod>2018-06-10T16:43:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scic.org/association/</loc>
+    <lastmod>2018-06-10T16:43:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scic.org/collectivite/</loc>
+    <lastmod>2018-06-10T16:43:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scic.org/federation/</loc>
+    <lastmod>2018-06-10T16:43:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scic.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scic.org/resultat-scenario-1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scic.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scic.org/resultat-scenario-2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scic.org/resultat-scenario-3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scic.org/diagnostic/</loc>
+  </url>
+  
+</urlset>
