@@ -157,6 +157,7 @@ footer {
   color: $color-main;
   background: $white;
   padding:1rem;
+  border-bottom:1px solid $color-main;
   @media (min-width:$small) {
     & {
       padding:0;

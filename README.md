@@ -4,4 +4,15 @@
 Les principaux outils :
 - Le Générateur de Site Static [Hugo](gohugo.io)
 - [Netlify](https://app.netlify.com/)
-- [Final Form](https://github.com/final-form/final-form)
+
+## Développements
+
+Le site https://scic.sports.gouv.fr a été développé sous Hugo.
+
+## Création du site
+
+Design graphique : **Charlotte Tanguy**
+
+Gestion de projet : **Nicolas Servain**
+
+Développement : **Jonathan Pansiot**
