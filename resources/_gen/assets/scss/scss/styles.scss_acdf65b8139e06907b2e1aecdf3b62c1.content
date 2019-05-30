@@ -411,7 +411,8 @@ footer {
       position: absolute;
       bottom: 100%;
       right: 100%;
-      transform: translateY(80%); }
+      transform: translateY(80%);
+      z-index: 9; }
   .banner .baseline {
     margin: 0;
     line-height: 1.1;

@@ -31,3 +31,18 @@ live_base_url = "https://scic.sports.gouv.fr"
 [Params]
   ghrepo = "https://github.com/jonathanulco/SCIC"
   branch = "master"
+
+[outputs]
+home = [ "HTML", "RSS", "HEADERS" ]
+
+[mediaTypes]
+[mediaTypes."text/netlify"]
+delimiter = ""
+
+
+[outputFormats]
+[outputFormats.HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true 
