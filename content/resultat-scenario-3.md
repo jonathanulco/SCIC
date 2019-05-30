@@ -7,10 +7,11 @@ bodyclass="page-result"
 **Plusieurs pistes peuvent vous permettre de poursuivre la construction de votre projet :**
 
 {{% divmd class="block-list-link pbl" %}}
+
 - Pour en savoir plus sur l’articulation entre le champ du sport et celui de l’économie sociale et solidaire
 [Consultez le guide « Economie Sociale et Solidaire & Sport »](http://www.sports.gouv.fr/organisation/publication-chiffres-cles/Toutes-les-publications-10217/article/auto-entrepreneursport)
 
-- Pour poursuivre votre réflexion sur le développement d’activités 
+- Pour poursuivre votre réflexion sur le développement d’activités
 [Consultez les dossiers CRDLA Sport](http://crdla-sport.franceolympique.com/art.php?id=71395)
 
 - Pour une réflexion sur les évolutions du champ sportif

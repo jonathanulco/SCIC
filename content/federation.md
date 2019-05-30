@@ -18,6 +18,6 @@ services et matériels sportifs.
 Sa mise en oeuvre obéit à des modalités bien différentes, intégrant des cultures sectorielles
 qu’il faut savoir appréhender pour être efficient.
 
-{{% divmd class="block-button" %}} 
+{{% divmd class="block-button" %}}
 [**Pour plus d’informations, téléchargez le guide et consultez la page « Vous êtes une fédération sportive »** **Guide SCIC et Sport**](/assets/pdf/guide-scic.pdf)
 {{% /divmd %}}

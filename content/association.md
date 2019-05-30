@@ -6,7 +6,7 @@ draft: false
 image:  "/assets/images/association.jpg"
 ---
 
-## Le sport, un champ en pleine évolution socio économique.
+## Le sport, un champ en pleine évolution socio économique
 
 **Impacté depuis une trentaine d’années par de nombreuses réglementations externes
 (rapport avec la sécurité sociale / la sécurité des pratiques / la fiscalité associative et
