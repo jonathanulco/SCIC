@@ -27,7 +27,15 @@
     <link rel="next" href="{{ .Params.next }}">
     {{ end }}
     {{ partial "favicon" . }}
-    <link href="/css/styles.css" rel="stylesheet">
+    {{ if .Site.IsServer }}
+    {{ $cssOpts := (dict "targetPath" "/sass/styles.css" "enableSourceMap" true ) }}
+    {{ $styles := resources.Get "/sass/styles.scss" | toCSS $cssOpts }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+    {{ else }}
+    {{ $cssOpts := (dict "targetPath" "/sass/styles.css" ) }}
+    {{ $styles := resources.Get "/sass/styles.scss" | toCSS $cssOpts | postCSS (dict "config" "postcss.config.js") }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+    {{ end }}
     {{ if .Site.Params.seo.webmaster_verifications.google }}
     <meta name="google-site-verification" content="{{ .Site.Params.seo.webmaster_verifications.google }}" />
     {{ end }}

@@ -2,7 +2,6 @@ baseURL = "https://scic.org/"
 DefaultContentLanguage = "fr"
 languageCode = "fr-fr"
 title = "Scic"
-theme = "scic"
 description = "Un outil de l'économie sociale et solidaire pour le développement du sport"
 
 [extra]
