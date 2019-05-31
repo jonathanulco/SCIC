@@ -27,5 +27,5 @@ et sécuriser l’engagement des bénévoles dirigeants.
 
 Si le changement est annoncé il reste dès lors à en préciser les stratégies.
 {{% divmd class="block-button" %}}
-[**Pour plus d’informations, téléchargez le guide et consultez la page « Vous êtes une association ou un porteur de projet »** **Guide SCIC et Sport**](/assets/pdf/guide-scic.pdf)
+[**Pour plus d’informations, téléchargez le guide et consultez la page « Vous êtes une association ou un porteur de projet »** **Guide SCIC et Sport (pdf de 1 Mo)**](/assets/pdf/guide-scic.pdf)
 {{% /divmd %}}

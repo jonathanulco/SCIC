@@ -653,22 +653,29 @@ form [class*='step'] {
 form [class*='hidden'] {
   display: none; }
 
+.article .block-button,
 article .block-button {
   color: #ee6e36;
   border-left: 3px solid #ee6e36; }
+  .article .block-button a,
   article .block-button a {
     display: block;
-    color: #ee6e36; }
+    color: #ee6e36;
+    text-decoration: none; }
+  .article .block-button strong,
   article .block-button strong {
     display: block;
     padding: 1rem 1rem 1rem 3rem; }
+    .article .block-button strong:first-child,
     article .block-button strong:first-child {
       font-size: 1.6rem; }
+    .article .block-button strong:last-child,
     article .block-button strong:last-child {
       position: relative;
       padding: 1rem 1rem 1rem 7rem;
       color: #fefefe;
       background: #ee6e36; }
+      .article .block-button strong:last-child:before,
       article .block-button strong:last-child:before {
         position: absolute;
         content: '';
@@ -682,6 +689,7 @@ article .block-button {
         transform: translateY(-50%);
         background: url(/assets/images/arrow.svg) 50% 50% no-repeat; }
   @media (min-width: 76.7em) {
+    .article .block-button,
     article .block-button {
       max-width: 25vw; } }
 
@@ -854,7 +862,9 @@ article .block-button {
         z-index: 1; }
   .page-result .main-int .block-list-link ul {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    font-size: 2rem;
+    text-align: left; }
   .page-result .main-int .block-list-link li {
     position: relative;
     padding: 0 0 0 2rem;

@@ -28,7 +28,7 @@ s’engager ensemble dans la création d’une entreprise : le modèle d’organ
 [DS.C3@sports.gouv.fr](mailto:DS.C3@sports.gouv.fr)
 
 {{% divmd class="block-button" %}}
-[**Pour en savoir plus sur le SCIC** **Guide du modèle économique du sport (PDF 1Mo)**](/assets/pdf/guide-scic.pdf)
+[**Pour en savoir plus sur le SCIC** **Guide du modèle économique du sport (PDF de 1 Mo)**](/assets/pdf/guide-scic.pdf)
 {{% /divmd %}}
 
 {{% /divmd %}}

@@ -482,12 +482,14 @@ form {
   }
 }
 // Article
+.article .block-button,
 article .block-button {
   color: $color-highlight;
   border-left: 3px solid $color-highlight;
   a {
     display: block;
     color: $color-highlight;
+    text-decoration:none;
   }
 
 
@@ -715,6 +717,8 @@ article .block-button {
       ul {
         margin: 0;
         padding: 0;
+        font-size:2rem;
+        text-align:left;
       }
       li {
         position: relative;

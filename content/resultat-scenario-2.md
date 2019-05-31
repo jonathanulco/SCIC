@@ -10,7 +10,7 @@ Nous vous invitons à prendre connaissance des enjeux et opportunités de la SCI
 Vous êtes :
 {{% /divmd %}}
 
-{{% divmd class="block-link pbl" %}}
+{{% divmd class="block-link" %}}
 [**une association**](/association/) [**une fédération**](/federation/) [**une collectivité**](/collectivite/).
 {{% /divmd %}}
 {{% divmd class="block-list-link pbl" %}}

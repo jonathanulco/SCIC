@@ -20,5 +20,5 @@ territoire. La SCIC permet ainsi d’organiser une dynamique pérenne de dévelo
 ensemble habituellement.
 
 {{% divmd class="block-button" %}}
-[**Pour plus d’informations, téléchargez le guide et consultez la page « Vous êtes une collectivité publique »** **Guide SCIC et Sport**](/assets/pdf/guide-scic.pdf)
+[**Pour plus d’informations, téléchargez le guide et consultez la page « Vous êtes une collectivité publique »** **Guide SCIC et Sport (pdf de 1 mo)**](/assets/pdf/guide-scic.pdf)
 {{% /divmd %}}
