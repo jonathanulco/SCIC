@@ -2,21 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scic</title>
-    <link>https://scic.org/</link>
+    <link>https://scic.sports.gouv.fr/</link>
     <description>Recent content on Scic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Sun, 10 Jun 2018 16:43:39 +0200</lastBuildDate>
     
-	<atom:link href="https://scic.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://scic.sports.gouv.fr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Mentions légales</title>
-      <link>https://scic.org/mentions-legales/</link>
+      <title>Accessibilité</title>
+      <link>https://scic.sports.gouv.fr/accessibilite/</link>
       <pubDate>Sun, 10 Jun 2018 16:43:39 +0200</pubDate>
       
-      <guid>https://scic.org/mentions-legales/</guid>
+      <guid>https://scic.sports.gouv.fr/accessibilite/</guid>
+      <description>Vérifié le 20 mai 2019
+Cette page n&amp;rsquo;est pas une page d&amp;rsquo;aide. Elle vise à présenter la politique d&amp;rsquo;accessibilité du site scic.gouv.fr et à définir le niveau d&amp;rsquo;accessibilité général constaté sur le site conformément aux référentiels et à la réglementation.
+Technologies utilisées sur le site
+ HTML5 CSS JavaScript SVG  Agents utilisateurs, technologies d&amp;rsquo;assistance et outils utilisés pour vérifier l&amp;rsquo;accessibilité
+Les vérifications de restitution de contenus ont été réalisées sur la base de la combinaison fournie par la base de référence du RGAA 3, avec les versions suivantes :</description>
+    </item>
+    
+    <item>
+      <title>Mentions légales</title>
+      <link>https://scic.sports.gouv.fr/mentions-legales/</link>
+      <pubDate>Sun, 10 Jun 2018 16:43:39 +0200</pubDate>
+      
+      <guid>https://scic.sports.gouv.fr/mentions-legales/</guid>
       <description>Le site https://scic.sports.gouv.fr du ministère des Sports est géré par le bureau de la Communication.
 Responsable de publication : Frédéric Steinberg
 Rédactrice en chef : Katia Torres
@@ -28,88 +41,102 @@ Création du site Design graphique : Charlotte Tanguy</description>
     
     <item>
       <title>Outils et ressources</title>
-      <link>https://scic.org/outils-et-ressources/</link>
+      <link>https://scic.sports.gouv.fr/outils-et-ressources/</link>
       <pubDate>Sun, 10 Jun 2018 16:43:39 +0200</pubDate>
       
-      <guid>https://scic.org/outils-et-ressources/</guid>
-      <description>- [Évolution du modèle socio-économique du club sportif](/assets/pdf/evolution_du_modele_economique_du_club_sportif.pdf) - [La méthodologie d’un projet de SCIC](/assets/pdf/la_methodologie_d_un_projet_de_scic.pdf) - [Le profil de l’entrepreneur sportif](/assets/pdf/le_profil_de_l_entrepreneur_sportif.pdf) - [La révision coopérative](/assets/pdf/la_revision_cooperative.pdf) - [La transformation d’association en SCIC](/assets/pdf/la_transformation_d_association_en_scic.pdf) - [SCIC et groupement d’employeurs](/assets/pdf/scic_et_groupement_d_employeurs.pdf) - [La SCIC peut-elle avoir une fonction de Coopérative d’Activité et d’Emploi (CAE) ?](/assets/pdf/la_scic_peut-elle_avoir_une_fonction_de_cooperative_d_activite_et_d_emploi_cae.pdf) - [S’informer, se former, être accompagné](/assets/pdf/s_informer_se former_etre_accompagne.pdf) - [Présentation succincte des SCIC citées dans le guide](/assets/pdf/presentation_succincte_des_scic_citees_dans_le_guide.pdf)  </description>
+      <guid>https://scic.sports.gouv.fr/outils-et-ressources/</guid>
+      <description> Évolution du modèle socio-économique du club sportif, pdf de 352ko La méthodologie d’un projet de SCIC, pdf de 82ko Le profil de l’entrepreneur sportif, pdf de 32ko La révision coopérative, pdf de 52ko La transformation d’association en SCIC, pdf de 44ko SCIC et groupement d’employeurs, pdf de 47ko La SCIC peut-elle avoir une fonction de Coopérative d’Activité et d’Emploi (CAE) ? pdf de 47ko S’informer, se former, être accompagné, pdf de 42ko Présentation succincte des SCIC citées dans le guide, pdf de 64ko  </description>
+    </item>
+    
+    <item>
+      <title>Plan du site</title>
+      <link>https://scic.sports.gouv.fr/plan-du-site/</link>
+      <pubDate>Sun, 10 Jun 2018 16:43:39 +0200</pubDate>
+      
+      <guid>https://scic.sports.gouv.fr/plan-du-site/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Une SCIC c’est...</title>
-      <link>https://scic.org/a-propos/</link>
+      <link>https://scic.sports.gouv.fr/a-propos/</link>
       <pubDate>Sun, 10 Jun 2018 16:43:39 +0200</pubDate>
       
-      <guid>https://scic.org/a-propos/</guid>
+      <guid>https://scic.sports.gouv.fr/a-propos/</guid>
       <description>Une Scic c’est une structure principalement à vocation économique qui relève des valeurs de l’ESS et qui permet la mobilisation collective d’acteurs attachés à l’intérêt général, l’utilité sociale.
 Les travaux engagés par le ministère des Sports et le CNOSF notamment sur la gouvernance du sport et son économie, ont fait émerger, entre autres, l’intérêt de recourir au statut de SCIC comme support potentiel de la gestion et du développement maîtrisé des activités socio-économiques du champ sportif.</description>
     </item>
     
     <item>
       <title>Vous êtes une association sportive</title>
-      <link>https://scic.org/association/</link>
+      <link>https://scic.sports.gouv.fr/association/</link>
       <pubDate>Sun, 10 Jun 2018 16:43:39 +0200</pubDate>
       
-      <guid>https://scic.org/association/</guid>
+      <guid>https://scic.sports.gouv.fr/association/</guid>
       <description>Le sport, un champ en pleine évolution socio économique Impacté depuis une trentaine d’années par de nombreuses réglementations externes (rapport avec la sécurité sociale / la sécurité des pratiques / la fiscalité associative et désormais, l’évolution des financements publics), par des évolutions internes comme la mise en œuvre de la CCN du sport, les rôles et responsabilités des bénévoles, le monde associatif sportif a engagé , avec le soutien du Ministère des Sports une grande réflexion sur son modèle d’organisation et de gouvernance, afin de déterminer les évolutions nécessaires du modèle socio-économique du club sportif.</description>
     </item>
     
     <item>
       <title>Vous êtes une collectivité publique</title>
-      <link>https://scic.org/collectivite/</link>
+      <link>https://scic.sports.gouv.fr/collectivite/</link>
       <pubDate>Sun, 10 Jun 2018 16:43:39 +0200</pubDate>
       
-      <guid>https://scic.org/collectivite/</guid>
+      <guid>https://scic.sports.gouv.fr/collectivite/</guid>
       <description>Les collectivités publiques sont des partenaires majeurs des acteurs sportifs. Le sport, compétence partagée entre les différents niveaux de collectivités locales, est en effet un acteur économique important et, de plus en plus reconnu comme facteur d’attractivité territoriale, de création d’emplois, de cohésion sociale.
 La SCIC, levier de développement économique territorial Basé sur une coopération entre acteurs d’origines diversifiées, le statut de SCIC permet d’associer efficacité économique et objectif social, dans une optique de développement du territoire.</description>
     </item>
     
     <item>
       <title>Vous êtes une fédération sportive</title>
-      <link>https://scic.org/federation/</link>
+      <link>https://scic.sports.gouv.fr/federation/</link>
       <pubDate>Sun, 10 Jun 2018 16:43:39 +0200</pubDate>
       
-      <guid>https://scic.org/federation/</guid>
+      <guid>https://scic.sports.gouv.fr/federation/</guid>
       <description>Le SPORT, un secteur qui a besoin de collaborer avec d’autres acteurs économiques et/ou d’intérêt général en créant du partenariat, en développant de l’intérêt collectif tout en gardant ses valeurs d’utilité sociale.
 Le sport, ou plutôt les pratiques physiques et sportives, sont devenus un phénomène de société. Dépassant les frontières historiques du sport de compétition géré par les fédérations sportives dans un partenariat étroit avec l’Etat, on le retrouve désormais pris en compte dans de nombreux secteurs d’activités tels la santé, le tourisme, l’animation évènementielle et l’attractivité du territoire, l’éducation et le lien social, l’industrie des services et matériels sportifs.</description>
     </item>
     
     <item>
       <title>Nous vous invitons à approfondir votre projet au travers du support de SCIC</title>
-      <link>https://scic.org/resultat-scenario-1/</link>
+      <link>https://scic.sports.gouv.fr/resultat-scenario-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scic.org/resultat-scenario-1/</guid>
+      <guid>https://scic.sports.gouv.fr/resultat-scenario-1/</guid>
       <description>Afin de définir plus précisément le cadre organisationnel, la stratégie de développement et la conduite du changement nécessaire pour répondre à ces ambitions :
-[**Téléchargez** **le guide**](/assets/pdf/guide-scic.pdf)  </description>
+ Téléchargez le guide
+  Pour plus d’informations, contactez : DS.C3@sports.gouv.fr</description>
     </item>
     
     <item>
       <title>Votre démarche stratégique de changement reste à préciser</title>
-      <link>https://scic.org/resultat-scenario-2/</link>
+      <link>https://scic.sports.gouv.fr/resultat-scenario-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scic.org/resultat-scenario-2/</guid>
+      <guid>https://scic.sports.gouv.fr/resultat-scenario-2/</guid>
       <description>Nous vous invitons à prendre connaissance des enjeux et opportunités de la SCIC correspondant à votre situation :
-Vous êtes :  [**une association**](/association/) [**une fédération**](/federation/) [**une collectivité**](/collectivite/).  </description>
+Vous êtes :
+  une association une fédération une collectivité.
+  Pour plus d’informations, contactez : DS.C3@sports.gouv.fr</description>
     </item>
     
     <item>
       <title>À ce stade, la SCIC ne semble pas être le support opportun pour votre situation</title>
-      <link>https://scic.org/resultat-scenario-3/</link>
+      <link>https://scic.sports.gouv.fr/resultat-scenario-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scic.org/resultat-scenario-3/</guid>
+      <guid>https://scic.sports.gouv.fr/resultat-scenario-3/</guid>
       <description>Plusieurs pistes peuvent vous permettre de poursuivre la construction de votre projet :
-- Pour en savoir plus sur l’articulation entre le champ du sport et celui de l’économie sociale et solidaire [Consultez le guide « Economie Sociale et Solidaire &amp; Sport »](http://www.sports.gouv.fr/organisation/publication-chiffres-cles/Toutes-les-publications-10217/article/auto-entrepreneursport) - Pour poursuivre votre réflexion sur le développement d’activités [Consultez les dossiers CRDLA Sport](http://crdla-sport.franceolympique.com/art.php?id=71395) - Pour une réflexion sur les évolutions du champ sportif [Consultez la fiche modèle socio-économique du club sportif](http://www.</description>
+ Pour en savoir plus sur l’articulation entre le champ du sport et celui de l’économie sociale et solidaire Consultez le guide « Economie Sociale et Solidaire &amp;amp; Sport »
+ Pour poursuivre votre réflexion sur le développement d’activités Consultez les dossiers CRDLA Sport
+ Pour une réflexion sur les évolutions du champ sportif Consultez la fiche modèle socio-économique du club sportif</description>
     </item>
     
     <item>
       <title>Évaluez vos indicateurs de changement</title>
-      <link>https://scic.org/diagnostic/</link>
+      <link>https://scic.sports.gouv.fr/diagnostic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scic.org/diagnostic/</guid>
+      <guid>https://scic.sports.gouv.fr/diagnostic/</guid>
       <description></description>
     </item>
     

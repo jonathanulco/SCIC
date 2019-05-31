@@ -3,65 +3,75 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://scic.org/mentions-legales/</loc>
+    <loc>https://scic.sports.gouv.fr/accessibilite/</loc>
     <lastmod>2018-06-10T16:43:39+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://scic.org/outils-et-ressources/</loc>
+    <loc>https://scic.sports.gouv.fr/mentions-legales/</loc>
     <lastmod>2018-06-10T16:43:39+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://scic.org/</loc>
+    <loc>https://scic.sports.gouv.fr/outils-et-ressources/</loc>
+    <lastmod>2018-06-10T16:43:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scic.sports.gouv.fr/plan-du-site/</loc>
+    <lastmod>2018-06-10T16:43:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scic.sports.gouv.fr/</loc>
     <lastmod>2018-06-10T16:43:39+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scic.org/a-propos/</loc>
+    <loc>https://scic.sports.gouv.fr/a-propos/</loc>
     <lastmod>2018-06-10T16:43:39+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://scic.org/association/</loc>
+    <loc>https://scic.sports.gouv.fr/association/</loc>
     <lastmod>2018-06-10T16:43:39+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://scic.org/collectivite/</loc>
+    <loc>https://scic.sports.gouv.fr/collectivite/</loc>
     <lastmod>2018-06-10T16:43:39+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://scic.org/federation/</loc>
+    <loc>https://scic.sports.gouv.fr/federation/</loc>
     <lastmod>2018-06-10T16:43:39+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://scic.org/categories/</loc>
+    <loc>https://scic.sports.gouv.fr/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scic.org/resultat-scenario-1/</loc>
+    <loc>https://scic.sports.gouv.fr/resultat-scenario-1/</loc>
   </url>
   
   <url>
-    <loc>https://scic.org/tags/</loc>
+    <loc>https://scic.sports.gouv.fr/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scic.org/resultat-scenario-2/</loc>
+    <loc>https://scic.sports.gouv.fr/resultat-scenario-2/</loc>
   </url>
   
   <url>
-    <loc>https://scic.org/resultat-scenario-3/</loc>
+    <loc>https://scic.sports.gouv.fr/resultat-scenario-3/</loc>
   </url>
   
   <url>
-    <loc>https://scic.org/diagnostic/</loc>
+    <loc>https://scic.sports.gouv.fr/diagnostic/</loc>
   </url>
   
 </urlset>
