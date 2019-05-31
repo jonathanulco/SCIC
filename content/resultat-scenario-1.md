@@ -11,3 +11,8 @@ la stratégie de développement et la conduite du changement nécessaire pour r�
 {{% divmd class="pdf pbl" %}}
 [**Téléchargez** **le guide**](/assets/pdf/guide-scic.pdf)
 {{% /divmd %}}
+{{% divmd class="block-list-link pbl" %}}
+
+- Pour plus d’informations, contactez : 
+[DS.C3@sports.gouv.fr](mailto:DS.C3@sports.gouv.fr)
+{{% /divmd %}}

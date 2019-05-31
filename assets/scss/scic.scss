@@ -524,7 +524,7 @@ article .block-button {
     }
   }
 }
-
+.sitemap,
 .article {
   main {
     padding-bottom: 33rem;
@@ -573,6 +573,10 @@ article .block-button {
         margin: 3rem 0;
       }
     }
+    a {
+      color:$color-main;
+      text-decoration:underline;
+    }
   }
   &.about main {
     background-color: $white;
@@ -599,7 +603,10 @@ article .block-button {
     ul {
       margin-left: 0rem;
       list-style: none;
-
+      a {
+        color:$color-main;
+        text-decoration:underline;
+      }
       a:before {
         content: '';
         display: inline-block;

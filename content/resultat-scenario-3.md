@@ -24,6 +24,9 @@ bodyclass="page-result"
 s’engager ensemble dans la création d’une entreprise : le modèle d’organisation SCOP vous concerne peut être
 [Contactez l’URSCOP de votre région](http://www.les-scop.coop/sites/fr/le-reseau/coordonnees-unions-regionales.html)
 
+- Pour plus d’informations, contactez : 
+[DS.C3@sports.gouv.fr](mailto:DS.C3@sports.gouv.fr)
+
 {{% divmd class="block-button" %}}
 [**Pour en savoir plus sur le SCIC** **Guide du modèle économique du sport (PDF 1Mo)**](/assets/pdf/guide-scic.pdf)
 {{% /divmd %}}

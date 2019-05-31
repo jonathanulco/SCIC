@@ -1,0 +1,14 @@
+{{ define "main"}}
+<div class="main-int">
+    <article>
+        <header>
+            <h1>{{ htmlUnescape (replace .Title " !" "&amp;!") }}</h1>
+        </header>
+        <ul>
+            {{ range .Site.RegularPages }}
+                <li><a href="{{.Permalink}}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </article>
+</div>
+{{ end }}

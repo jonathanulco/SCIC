@@ -13,3 +13,8 @@ Vous êtes :
 {{% divmd class="block-link pbl" %}}
 [**une association**](/association/) [**une fédération**](/federation/) [**une collectivité**](/collectivite/).
 {{% /divmd %}}
+{{% divmd class="block-list-link pbl" %}}
+
+- Pour plus d’informations, contactez : 
+[DS.C3@sports.gouv.fr](mailto:DS.C3@sports.gouv.fr)
+{{% /divmd %}}

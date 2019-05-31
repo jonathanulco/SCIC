@@ -685,65 +685,91 @@ article .block-button {
     article .block-button {
       max-width: 25vw; } }
 
+.sitemap main,
 .article main {
   padding-bottom: 33rem;
   color: #272f80;
   background-color: #fefefe; }
   @media (min-width: 76.7em) {
+    .sitemap main,
     .article main {
       background-image: url(/assets/images/article.svg), url(/assets/images/wave-purple.svg);
       background-repeat: no-repeat;
       background-position: 100% 96%,50% 100%;
       background-size: 43%, 100%; } }
 
+.sitemap .main-int,
 .article .main-int {
   max-width: 99.1em; }
 
+.sitemap .cover-image,
 .article .cover-image {
   width: 100%;
   max-width: 100%;
   height: auto;
   object-fit: cover; }
 
+.sitemap article,
 .article article {
   font-size: 1.8rem; }
+  .sitemap article h1,
   .article article h1 {
     margin-top: 6rem;
     font-size: 4.8rem; }
+  .sitemap article h2,
   .article article h2 {
     margin-bottom: 3rem;
     padding-top: 3rem;
     font-size: 3.2rem; }
-  .article article header + p strong, .article article header + h2 + p strong {
+  .sitemap article header + p strong, .sitemap article header + h2 + p strong,
+  .article article header + p strong,
+  .article article header + h2 + p strong {
     font-size: 3.2rem; }
+  .sitemap article p,
   .article article p {
     margin: 0 0 3rem; }
+  .sitemap article ul,
   .article article ul {
     margin: 3rem 0 0 1.5rem;
     padding: 0; }
+    .sitemap article ul li,
     .article article ul li {
       margin: 3rem 0; }
+  .sitemap article a,
+  .article article a {
+    color: #272f80;
+    text-decoration: underline; }
 
+.sitemap.about main,
 .article.about main {
   background-color: #fefefe; }
   @media (min-width: 76.7em) {
+    .sitemap.about main,
     .article.about main {
       background-image: url(/assets/images/about.svg), url(/assets/images/wave-orange.svg);
       background-repeat: no-repeat;
       background-position: 100% 96%,50% 100%;
       background-size: 33%, 100%; } }
 
+.sitemap.tools main,
 .article.tools main {
   background-color: #aed2dd; }
   @media (min-width: 76.7em) {
+    .sitemap.tools main,
     .article.tools main {
       background-image: url(/assets/images/hula-hoop.svg), url(/assets/images/wave-pink.svg);
       background-repeat: no-repeat;
       background-position: 95% 80%,50% 100%;
       background-size: 18%, 100%; } }
+  .sitemap.tools main ul,
   .article.tools main ul {
     margin-left: 0rem;
     list-style: none; }
+    .sitemap.tools main ul a,
+    .article.tools main ul a {
+      color: #272f80;
+      text-decoration: underline; }
+    .sitemap.tools main ul a:before,
     .article.tools main ul a:before {
       content: '';
       display: inline-block;
