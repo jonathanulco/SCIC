@@ -23,7 +23,7 @@ live_base_url = "https://scic.sports.gouv.fr"
   identifier = "tools_ressources"
   url = "/outils-et-ressources/"   
 [[menu.main]]
-  name = "Guide (pdf de 1 Mo)"
+  name = "Guide (pdf de 1.4 Mo)"
   weight = 10
   identifier = "guide" 
   url = "/pdf/guide-scic.pdf" 

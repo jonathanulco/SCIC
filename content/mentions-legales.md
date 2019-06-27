@@ -13,7 +13,7 @@ Responsable de publication : **Frédéric Steinberg**
 Rédactrice en chef : **Katia Torres**
 
 La conception éditoriale, le suivi, la maintenance technique et les mises à jour du site sont
-assurés par **Leïla BENGANA**  
+assurés par **Leïla Bengana**  
 
 Écrire aux webmestres du site : DS.C3@sports.gouv.fr
 
@@ -42,9 +42,7 @@ Contenu du site Le ministère des Sports met à disposition des utilisateurs de 
 informations et outils disponibles et vérifiés. Les informations du présent site renvoient
 parfois à des sites extérieurs (liens hypertextes) sur lesquels le Ministère n’a aucun contrôle
 et pour lesquels il décline toute responsabilité ;
-Il s’efforcera de corriger autant que faire se peut les erreurs ou omissions qui lui seront
-signalées par les utilisateurs en adressant un courriel aux webmestres. (mettre à la place contact :
-DS.C3@sports.gouv.fr )
+Il s’efforcera de corriger autant que faire se peut les erreurs ou omissions qui lui seront signalées par les utilisateurs en adressant un courriel à DS.C3@sports.gouv.fr .
 Propriété La structure générale, ainsi que les logiciels, textes, images animées ou fixes,
 sons, savoir-faire, dessins, graphismes et tous autres éléments composant ce site web sont
 de l’utilisation exclusive du ministère des sports.
